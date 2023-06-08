@@ -12,6 +12,8 @@ jobs:
     steps:
       - run: sudo apt-get install autopoint gperf libtool-bin lzip intltool python3-mako
       - uses: actions/checkout@v3
+        with:
+          ref: release-77.0
       # mkvtoolnix-specialized fork of mxe
       # build docs declare path must be $HOME/mxe
       - run: git clone --depth 1 https://gitlab.com/mbunkus/mxe $HOME/mxe
