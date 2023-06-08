@@ -1,0 +1,15 @@
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: git fetch --tags https://gitlab.com/mbunkus/mkvtoolnix.git
+      #- run: git push --tags https://oauth2:${{ secrets.GITHUB_TOKEN }}@github.com/Kissaki/MKVToolNix.git
+      - run: gh auth setup-git
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: git push
