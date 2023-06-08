@@ -16,7 +16,6 @@ jobs:
       - run: git clone --depth 1 https://gitlab.com/mbunkus/mxe $HOME/mxe
       - run: cd $HOME/mxe
       - run: LOGFILE=/proc/$$/fd/1 ./packaging/windows/setup_cross_compilation_env.sh
-        timeout-minutes: 10
       - if: failure()
         uses: actions/upload-artifact@v3
         with:
