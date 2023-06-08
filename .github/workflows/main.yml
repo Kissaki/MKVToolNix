@@ -1,9 +1,6 @@
 on:
   push:
-    branches: [ main ]
-    tags: [ "release-*" ]
-  pull_request:
-    branches: [ main ]
+    branches: [ "*" ]
   workflow_dispatch:
 jobs:
   build:
