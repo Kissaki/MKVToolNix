@@ -1,0 +1,11 @@
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: git fetch --tags git@gitlab.com:mbunkus/mkvtoolnix.git
+      - run: git push --tags
