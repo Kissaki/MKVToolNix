@@ -4,11 +4,9 @@ set -e
 echo "Comparing tags…"
 dups=.git/refs/upstream/tags/
 dmir=.git/refs/mirror/tags/
-for fpath in ${dups}*
-do
+for fpath in ${dups}*; do
   tag=${fpath#${dups}}
-  if [ ! -e "${dmir}${tag}" ]
-  then
+  if [ ! -e "${dmir}${tag}" ]; then
     echo "Identified new tag ${tag}"
 
     # Push tag to mirror
