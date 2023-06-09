@@ -15,3 +15,5 @@ jobs:
       - run: ./update-mirror.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: git fetch https://gitlab.com/mbunkus/mkvtoolnix.git refs/heads/*:refs/upstream/heads/*
+      - run: git push origin refs/upstream/heads/*:refs/heads/*
