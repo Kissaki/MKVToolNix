@@ -8,7 +8,7 @@ You can watch releases to be notified of new releases.
 
 The release will have the version changes in its description.
 
-For the latest release, see [releases/latest](releases/latest).
+For the latest release, see [releases/latest](https://github.com/Kissaki/MKVToolNix/releases/latest). 
 
 Note that downloads are not provided. Please refer to [the official MKVToolNix website downloads](https://mkvtoolnix.download/downloads.html) or your package manager of choice.
 
