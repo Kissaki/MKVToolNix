@@ -18,7 +18,7 @@ for fpath in ${dups}*; do
     ./extract-release-notes.sh "${tag}" "${rnfile}"
 
     echo "Creating new release…"
-    echo "hub release create --file \"${rnfile}\" \"$tag\""
-    hub release create --file "${rnfile}" "$tag"
+    echo "gh release create \"$tag\" --notes-file \"${rnfile}\""
+    gh release create "$tag" --notes-file "${rnfile}" 
   fi
 done
