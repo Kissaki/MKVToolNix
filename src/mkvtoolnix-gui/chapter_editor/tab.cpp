@@ -1923,8 +1923,10 @@ Tab::renumberSubChapters() {
   while ((row < numRows) && (0 < toRenumber)) {
     auto renumbered = changeChapterName(selectedIdx, row, chapterNumber, nameTemplate, nameMatchingMode, languageToReplace, skipHidden);
 
-    if (renumbered)
+    if (renumbered) {
       ++chapterNumber;
+      --toRenumber;
+    }
     ++row;
   }
 }

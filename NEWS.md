@@ -13,6 +13,8 @@
 
 * GUI: macOS: fixed refreshing widgets after system switches between dark &
   light modes. Patch by Miklos Juhasz.
+* GUI: chapter editor: when renumbering chapters limiting the number of
+  chapters to renumber did not work. Fixes #6199.
 
 ## Build system changes
 
