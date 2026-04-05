@@ -8,6 +8,9 @@
   places. Translations by coolvitto.
 * GUI: macOS: added dock icon progress bar for job queue. Patch by Miklos
   Juhasz.
+* GUI: chapter editor: added an option in the "additional modifications"
+  dialog that toggles applying the selected modifications to all currently
+  open chapter editor tabs. Implements #6189.
 
 ## Bug fixes
 
