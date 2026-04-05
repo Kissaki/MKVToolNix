@@ -6,18 +6,18 @@
   for several years. The program translation is now complete again, the man
   page translation has been extended as well. Both were reworked in most
   places. Translations by coolvitto.
-* GUI: macOS: added dock icon progress bar for job queue. Patch by Miklos
-  Juhasz.
 * GUI: chapter editor: added an option in the "additional modifications"
   dialog that toggles applying the selected modifications to all currently
   open chapter editor tabs. Implements #6189.
+* GUI: macOS: added dock icon progress bar for job queue. Patch by Miklos
+  Juhasz.
 
 ## Bug fixes
 
-* GUI: macOS: fixed refreshing widgets after system switches between dark &
-  light modes. Patch by Miklos Juhasz.
 * GUI: chapter editor: when renumbering chapters limiting the number of
   chapters to renumber did not work. Fixes #6199.
+* GUI: macOS: fixed refreshing widgets after system switches between dark &
+  light modes. Patch by Miklos Juhasz.
 
 ## Build system changes
 
