@@ -1,4 +1,4 @@
-# Version ?
+# Version 98.0 "Chonks" 2026-04-05
 
 ## New features and enhancements
 
