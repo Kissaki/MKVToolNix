@@ -333,7 +333,7 @@ Tab::setupUi() {
   connect(m_replaceAttachmentContentSetValuesAction, &QAction::triggered,                                 [this]() { replaceAttachmentContent(true); });
   connect(m_model,                                   &PageModel::attachmentsReordered,                    [this]() { m_attachmentsPage->rereadChildren(*m_model); });
   connect(m_model,                                   &PageModel::tracksReordered,                         this, &Tab::handleReorderedTracks);
-  connect(MainWindow::get(),                         &MainWindow::preferencesChanged,                     [this]() { m_modifyTracksSubmenu.setupLanguage(*m_languageShortcutsMenu); });
+  connect(MainWindow::get(),                         &MainWindow::preferencesChanged,                     this, [this]() { m_modifyTracksSubmenu.setupLanguage(*m_languageShortcutsMenu); });
 }
 
 void

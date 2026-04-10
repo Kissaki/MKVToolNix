@@ -74,7 +74,7 @@ Tool::setupActions() {
   connect(ui->openFileButton,                          &QPushButton::clicked,           this, [this]() { selectFileToOpen(false); });
 
   connect(m_chapterEditorMenu,                         &QMenu::aboutToShow,             this, &Tool::enableMenuActions);
-  connect(mw,                                          &MainWindow::preferencesChanged, [this]() { Util::setupTabWidgetHeaders(*ui->editors); });
+  connect(mw,                                          &MainWindow::preferencesChanged, this, [this]() { Util::setupTabWidgetHeaders(*ui->editors); });
   connect(mw,                                          &MainWindow::preferencesChanged, this, &Tool::retranslateUi);
 
   connect(App::instance(),                             &App::editingChaptersRequested,  this, &Tool::openFilesFromCommandLine);
