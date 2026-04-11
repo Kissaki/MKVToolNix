@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MKVToolNix 8.5.0\n"
 "POT-Creation-Date: 2026-04-05 14:39+0200\n"
-"PO-Revision-Date: 2025-09-10 19:57+0200\n"
-"Last-Translator: Jakub A, 2025\n"
+"PO-Revision-Date: 2016-02-03 20:53+0000\n"
+"Last-Translator: Rudolf Schnapka <rs@techno-flex.de>, 2015\n"
 "Language-Team: Polish (http://app.transifex.com/moritz-bunkus/mkvtoolnix/language/pl/)\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -196,7 +196,7 @@ msgstr "1"
 #: doc/man/mkvpropedit.xml:37
 #: doc/man/mkvtoolnix-gui.xml:37
 msgid "&version;"
-msgstr "&version;"
+msgstr "&wersja;"
 
 #. type: Content of: <refentry><refmeta><refmiscinfo>
 #: doc/man/mkvextract.xml:38
@@ -205,7 +205,7 @@ msgstr "&version;"
 #: doc/man/mkvpropedit.xml:38
 #: doc/man/mkvtoolnix-gui.xml:38
 msgid "&date;"
-msgstr "&date;"
+msgstr "&data;"
 
 #. type: Content of: <refentry><refmeta><refmiscinfo>
 #: doc/man/mkvextract.xml:39
@@ -789,7 +789,7 @@ msgstr ""
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><term>
 #: doc/man/mkvextract.xml:509
 msgid "cluster_position"
-msgstr "cluster_position"
+msgstr "pozycja_klastra"
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvextract.xml:511
@@ -804,7 +804,7 @@ msgstr ""
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><term>
 #: doc/man/mkvextract.xml:522
 msgid "relative_position"
-msgstr "relative_position"
+msgstr "pozycja_względna"
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvextract.xml:524
@@ -4125,7 +4125,7 @@ msgstr ""
 #: doc/man/mkvmerge.xml:2754
 #: doc/man/mkvpropedit.xml:725
 msgid "Language handling"
-msgstr ""
+msgstr "Obsługa języków"
 
 #. type: Content of: <refentry><refsect1><para>
 #: doc/man/mkvmerge.xml:2757
@@ -4517,12 +4517,12 @@ msgstr ""
 #. type: Content of: <refentry><refsect1><refsect2><orderedlist><listitem><para>
 #: doc/man/mkvmerge.xml:3123
 msgid "The timestamp for the end of the chapter can be set,"
-msgstr ""
+msgstr "Można ustawić znacznik czasu zakończenia rozdziału,"
 
 #. type: Content of: <refentry><refsect1><refsect2><orderedlist><listitem><para>
 #: doc/man/mkvmerge.xml:3124
 msgid "chapters can be nested,"
-msgstr ""
+msgstr "rozdziały mogą być zagnieżdżone,"
 
 #. type: Content of: <refentry><refsect1><refsect2><orderedlist><listitem><para>
 #: doc/man/mkvmerge.xml:3125
@@ -4704,7 +4704,7 @@ msgstr ""
 #. type: Content of: <refentry><refsect1><refsect2><para>
 #: doc/man/mkvmerge.xml:3276
 msgid "The basics are:"
-msgstr ""
+msgstr "Podstawowe informacje są następujące:"
 
 #. type: Content of: <refentry><refsect1><refsect2><itemizedlist><listitem><para>
 #: doc/man/mkvmerge.xml:3280
@@ -5354,7 +5354,7 @@ msgstr "Włącz funkcje eksperymentalne. Listę dostępnych funkcji można uzysk
 #. type: Content of: <refentry><refsect1><title>
 #: doc/man/mkvpropedit.xml:589
 msgid "Edit selectors"
-msgstr ""
+msgstr "Edytuj selektory"
 
 #. type: Content of: <refentry><refsect1><para>
 #: doc/man/mkvpropedit.xml:591
@@ -5705,10 +5705,8 @@ msgstr "<option>--merge</option>"
 
 #. type: Content of: <refentry><refsect1><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvtoolnix-gui.xml:86
-#, fuzzy
-#| msgid "All following file names will be added as input files to the current merge job. This is the default mode."
 msgid "All following file names will be added as source files to the current multiplex job. This is the default mode."
-msgstr "Wszystkie następujące nazwy plików zostaną dodane jako pliki wejściowe to obecnego zadania muksowania. To jest tryb domyślny."
+msgstr "Wszystkie poniższe nazwy plików zostaną dodane jako pliki źródłowe do bieżącego zadania multipleksowego. Jest to tryb domyślny."
 
 #. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
 #: doc/man/mkvtoolnix-gui.xml:91
@@ -5723,7 +5721,7 @@ msgstr "Wszystkie następujące nazwy plików zostaną otwarte w narzędziu info
 #. type: Content of: <refentry><refsect1><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvtoolnix-gui.xml:94
 msgid "Additionally the info tool will be selected on startup instead of the multiplexer tool."
-msgstr ""
+msgstr "Ponadto po uruchomieniu programu domyślnie wybierane będzie narzędzie informacyjne zamiast narzędzia multipleksera."
 
 #. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
 #: doc/man/mkvtoolnix-gui.xml:99
@@ -5738,7 +5736,7 @@ msgstr "Wszystkie następujące nazwy plików zostaną otwarte w edytorze rozdzi
 #. type: Content of: <refentry><refsect1><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvtoolnix-gui.xml:102
 msgid "Additionally the chapter editor will be selected on startup instead of the multiplexer tool."
-msgstr ""
+msgstr "Ponadto przy uruchomieniu programu zostanie wybrany edytor rozdziałów zamiast narzędzia multipleksera."
 
 #. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
 #: doc/man/mkvtoolnix-gui.xml:107
@@ -5753,7 +5751,7 @@ msgstr "Wszystkie następujące nazwy plików zostaną otwarte w edytorze nagł�
 #. type: Content of: <refentry><refsect1><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvtoolnix-gui.xml:110
 msgid "Additionally the header editor will be selected on startup instead of the multiplexer tool."
-msgstr ""
+msgstr "Additionally the header editor will be selected on startup instead of the multiplexer tool."
 
 #. type: Content of: <refentry><refsect1><para>
 #: doc/man/mkvtoolnix-gui.xml:137
@@ -5822,7 +5820,7 @@ msgstr " -- "
 #: doc/stylesheets/docbook-to-html.xsl:83
 #: doc/stylesheets/docbook-to-html.xsl:100
 msgid "Link to this heading"
-msgstr ""
+msgstr "Link do tego nagłówka"
 
 #. type: Content of: <xsl:stylesheet><xsl:template><tr><td><xsl:choose><xsl:when><a>
 #: doc/stylesheets/docbook-to-html.xsl:83
@@ -5841,7 +5839,7 @@ msgstr "Opcja"
 #. type: Attribute 'title' of: <xsl:stylesheet><xsl:template><tr><td><xsl:choose><xsl:when><a>
 #: doc/stylesheets/docbook-to-html.xsl:145
 msgid "Link to this option"
-msgstr ""
+msgstr "Link do tej opcji"
 
 #. type: Content of: <xsl:stylesheet><xsl:template><xsl:choose><xsl:otherwise><a><xsl:text>
 #: doc/stylesheets/docbook-to-html.xsl:185
