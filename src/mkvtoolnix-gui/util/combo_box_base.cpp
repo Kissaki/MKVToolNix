@@ -98,7 +98,7 @@ ComboBoxBase::reInitialize() {
 
   // Also block the underlying model's signals so that clear() and
   // setup() don't cause per-item accessibility updates on macOS.
-  auto *itemModel      = model();
+  auto itemModel       = model();
   auto modelWasBlocked = itemModel->blockSignals(true);
 
   clear();

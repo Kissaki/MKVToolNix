@@ -45,7 +45,7 @@ LanguageComboBox::setup(bool withEmpty,
   // accessibility layer to rebuild the entire element array — O(n²)
   // allocations for n items, leading to multi-GB memory spikes with
   // the ~8800 ISO 639 language entries.
-  auto *itemModel     = model();
+  auto itemModel       = model();
   auto modelWasBlocked = itemModel->blockSignals(true);
 
   auto separatorOffset = 0;

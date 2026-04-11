@@ -42,7 +42,7 @@ CharacterSetComboBox::setup(bool withEmpty,
 
   // Block the underlying model's signals during batch population to
   // prevent O(n²) macOS accessibility element creation per addItem().
-  auto *itemModel      = model();
+  auto itemModel       = model();
   auto modelWasBlocked = itemModel->blockSignals(true);
 
   if (withEmpty)

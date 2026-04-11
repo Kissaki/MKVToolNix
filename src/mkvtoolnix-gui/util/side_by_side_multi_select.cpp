@@ -71,10 +71,10 @@ SideBySideMultiSelect::setItems(ItemList const &all,
 
   // Block model signals during batch population to prevent O(n²)
   // macOS accessibility element creation per addItem() call.
-  auto availableModel        = p->ui->available->model();
-  auto selectedModel         = p->ui->selected->model();
-  auto availableWasBlocked   = availableModel->blockSignals(true);
-  auto selectedWasBlocked    = selectedModel->blockSignals(true);
+  auto availableModel      = p->ui->available->model();
+  auto selectedModel       = p->ui->selected->model();
+  auto availableWasBlocked = availableModel->blockSignals(true);
+  auto selectedWasBlocked  = selectedModel->blockSignals(true);
 
   p->ui->available->clear();
   p->ui->selected->clear();
