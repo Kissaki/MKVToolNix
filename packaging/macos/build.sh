@@ -286,6 +286,7 @@ function build_boost {
 function build_cmark {
   build_package cmark \
     -DCMAKE_INSTALL_PREFIX=${TARGET} \
+    -DCMAKE_BUILD_TYPE=Release \
     -DCMARK_TESTS=OFF \
     -DCMARK_STATIC=ON \
     -DCMARK_SHARED=OFF
