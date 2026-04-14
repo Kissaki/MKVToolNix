@@ -370,7 +370,7 @@ function build_qt {
        --parallel $DRAKETHREADS
 
   # cd ${CMPL}/${package}
-  build_tarball command "make DESTDIR=TMPDIR install"
+  build_tarball command "cmake --install . --prefix TMPDIR${TARGET}"
 
   CXXFLAGS=$saved_CXXFLAGS
 }
