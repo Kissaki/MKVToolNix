@@ -9,6 +9,9 @@
   symbols. Patch by corticalcode. Fixes #6206.
 * macOS: `build.sh`: enabled release build optimizations for
   dependencies. Patch by corticalcode. Fixes #6207.
+* macOS: `build.sh`: disabled use of `pkg-config` for Qt to prevent linking
+  against installed non-OS libraries such as from Homebrew. Patch by
+  corticalcode. Fixes #6208.
 
 
 # Version 98.0 "Chonks" 2026-04-05

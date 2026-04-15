@@ -324,8 +324,8 @@ function build_qt {
     -opensource
     -confirm-license
     -release
-    -force-pkg-config
-    -pkg-config
+    -force-bundled-libs
+    -no-feature-zstd
 
     -nomake benchmarks
     -nomake examples
