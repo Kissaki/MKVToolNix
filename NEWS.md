@@ -2,9 +2,9 @@
 
 ## Build system changes
 
-* macOS: `build.sh`: the Qt installation is now done via `qmake` instead of
-  using classic `make` as the classic Makefiles produced by Qt's build system
-  are incomplete. Patch by corticalcode. Fixes #6205.
+* macOS: `build.sh`: the Qt installation is now done via `cmake --install`
+  instead of using classic `make` as the classic Makefiles produced by Qt's
+  build system are incomplete. Patch by corticalcode. Fixes #6205.
 * macOS: `build.sh`: the binaries in the DMG are now stripped of debug
   symbols. Patch by corticalcode. Fixes #6206.
 * macOS: `build.sh`: enabled release build optimizations for
