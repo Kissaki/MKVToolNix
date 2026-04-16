@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MKVToolNix 8.5.0\n"
 "POT-Creation-Date: 2026-04-05 14:39+0200\n"
-"PO-Revision-Date: 2026-04-11 09:35+0200\n"
+"PO-Revision-Date: 2016-02-03 20:53+0000\n"
 "Last-Translator: Rudolf Schnapka <rs@techno-flex.de>, 2015\n"
 "Language-Team: Polish (http://app.transifex.com/moritz-bunkus/mkvtoolnix/language/pl/)\n"
 "Language: pl\n"
@@ -268,7 +268,7 @@ msgstr "Wszystkie pozostałe argumenty albo przełączają na określony tryb ek
 #. type: Content of: <refentry><refsect1><para>
 #: doc/man/mkvextract.xml:77
 msgid "Currently supported is the extraction of <link linkend=\"mkvextract.description.tracks\">tracks</link>, <link linkend=\"mkvextract.description.tags\">tags</link>, <link linkend=\"mkvextract.description.attachments\">attachments</link>, <link linkend=\"mkvextract.description.chapters\">chapters</link>, <link linkend=\"mkvextract.description.cuesheets\">CUE sheets</link>, <link linkend=\"mkvextract.description.timestamps_v2\">timestamps</link> and <link linkend=\"mkvextract.description.cues\">cues</link>."
-msgstr ""
+msgstr "Obecnie obsługiwane jest wyodrębnianie <link linkend=\"mkvextract.description.tracks\">ścieżek</link>, <link linkend=\"mkvextract.description.tags\">tagów</link>, <link linkend=\"mkvextract.description.attachments\">załączników</link>, <link linkend=\"mkvextract.description.chapters\">rozdziałów</link>, <link linkend=\"mkvextract.description.cuesheets\">arkuszy CUE</link>, <link linkend=\"mkvextract.description.timestamps_v2\">znaczników czasu</link> i <link linkend=\"mkvextract.description.cues\">podpowiedzi</link>."
 
 #. type: Content of: <refentry><refsect1><refsect2><title>
 #: doc/man/mkvextract.xml:84
@@ -339,10 +339,8 @@ msgstr "Zapisuje wszystkie powiadomienia do pliku <parameter>nazwa-pliku</parame
 #: doc/man/mkvinfo.xml:190
 #: doc/man/mkvmerge.xml:2303
 #: doc/man/mkvpropedit.xml:489
-#, fuzzy
-#| msgid "<option>--info</option>"
 msgid "<option>--no-bom</option>"
-msgstr "<option>--info</option>"
+msgstr "<option>--no-bom</option>"
 
 #. type: Content of: <refentry><refsect1><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvextract.xml:139
@@ -350,7 +348,7 @@ msgstr "<option>--info</option>"
 #: doc/man/mkvmerge.xml:2306
 #: doc/man/mkvpropedit.xml:492
 msgid "Normally text files that are created &amp; encoded in one of the UTF variants will start with a byte order marker (BOM).  Using this option disables writing that byte order marker."
-msgstr ""
+msgstr "Zazwyczaj pliki tekstowe utworzone i zakodowane w jednym z wariantów UTF rozpoczynają się od znacznika kolejności bajtów (BOM). Użycie tej opcji wyłącza zapisywanie tego znacznika kolejności bajtów."
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><term>
 #: doc/man/mkvextract.xml:146
@@ -378,7 +376,7 @@ msgstr "<option>--ui-language</option> <parameter>kod</parameter>"
 #: doc/man/mkvmerge.xml:2328
 #: doc/man/mkvpropedit.xml:502
 msgid "Forces the translations for the language <parameter>code</parameter> to be used (e.g.  '<literal>de_DE</literal>' for the German translations). Entering '<literal>list</literal>' as the <parameter>code</parameter> will cause the program to output a list of available translations."
-msgstr ""
+msgstr "Wymusza użycie tłumaczeń dla kodu <parameter>parameter</parameter> języka (np. \"<literal>de_DE</literal>” dla tłumaczeń na język niemiecki). Wprowadzenie \"<literal>list</literal>” jako kodu <parameter>parameter</parameter> spowoduje, że program wyświetli listę dostępnych tłumaczeń."
 
 #. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
 #: doc/man/mkvextract.xml:169
@@ -5577,10 +5575,8 @@ msgstr "$ mkvpropedit film.mkv --attachment-name Arial.ttf --attachment-descript
 
 #. type: Content of: <refentry><refsect1><para>
 #: doc/man/mkvpropedit.xml:809
-#, fuzzy
-#| msgid "Replacing one attached font (<literal>Comit.ttf</literal>) file with another one (<literal>Arial.ttf</literal>):"
 msgid "Replacing one attached font (<literal>Comic.ttf</literal>) file with another one (<literal>Arial.ttf</literal>):"
-msgstr "Zamiana załączonego pliku czcionki (<literal>Comit.ttf</literal>) na drugi z inną czcionką (<literal>Arial.ttf</literal>):"
+msgstr "Zamiana jednego dołączonego pliku czcionki (<literal>Comic.ttf</literal>) na inny (<literal>Arial.ttf</literal>):"
 
 #. type: Content of: <refentry><refsect1><screen>
 #: doc/man/mkvpropedit.xml:812
@@ -5613,7 +5609,7 @@ msgstr "$ mkvpropedit film.mkv --delete-attachment mime-type:application/x-truet
 #. type: Content of: <refentry><refsect1><para>
 #: doc/man/mkvpropedit.xml:831
 msgid "&mkvpropedit; exits with one of three exit codes:"
-msgstr ""
+msgstr "&mkvpropedit; kończy działanie z jednym z trzech kodów wyjścia:"
 
 #. type: Content of: <refentry><refsect1><itemizedlist><listitem><para>
 #: doc/man/mkvpropedit.xml:837
@@ -5623,17 +5619,17 @@ msgstr "<constant>0</constant> -- Ten kod zakończenia oznacza, że modyfikacja 
 #. type: Content of: <refentry><refsect1><itemizedlist><listitem><para>
 #: doc/man/mkvpropedit.xml:843
 msgid "<constant>1</constant> -- In this case &mkvpropedit; has output at least one warning, but the modification did continue.  A warning is prefixed with the text '<literal>Warning:</literal>'.  Depending on the issues involved the resulting files might be ok or not.  The user is urged to check both the warning and the resulting files."
-msgstr ""
+msgstr "<constant>1</constant> – W tym przypadku &mkvpropedit; zwrócił co najmniej jedno ostrzeżenie, ale modyfikacja nie została przerwana. Ostrzeżenie jest poprzedzone tekstem \"<literal>Ostrzeżenie:</literal>”. W zależności od problemu, pliki wynikowe mogą być poprawne lub nie. Użytkownik powinien sprawdzić zarówno ostrzeżenie, jak i pliki wynikowe."
 
 #. type: Content of: <refentry><refsect1><itemizedlist><listitem><para>
 #: doc/man/mkvpropedit.xml:851
 msgid "<constant>2</constant> -- This exit code is used after an error occurred.  &mkvpropedit; aborts right after outputting the error message.  Error messages range from wrong command line arguments over read/write errors to broken files."
-msgstr ""
+msgstr "<constant>2</constant> – Ten kod wyjścia jest używany po wystąpieniu błędu. &mkvpropedit; przerywa działanie zaraz po wyświetleniu komunikatu o błędzie. Komunikaty o błędach obejmują błędne argumenty wiersza poleceń, błędy odczytu/zapisu, a nawet uszkodzone pliki."
 
 #. type: Content of: <refentry><refsect1><para>
 #: doc/man/mkvpropedit.xml:871
 msgid "&mkvpropedit; uses the default variables that determine the system's locale (e.g. <varname>LANG</varname> and the <varname>LC_*</varname> family). Additional variables:"
-msgstr ""
+msgstr "&mkvpropedit; używa domyślnych zmiennych, które określają ustawienia regionalne systemu (np. <varname>LANG</varname> i rodzina <varname>LC_*</varname>). Dodatkowe zmienne:"
 
 #. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
 #: doc/man/mkvpropedit.xml:877
@@ -5643,7 +5639,7 @@ msgstr "<varname>MKVPROPEDIT_DEBUG</varname>, <varname>MKVTOOLNIX_DEBUG</varname
 #. type: Content of: <refentry><refsect1><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvpropedit.xml:879
 msgid "The content is treated as if it had been passed via the <link linkend=\"mkvpropedit.description.debug\"><option>--debug</option></link> option."
-msgstr ""
+msgstr "Treść jest traktowana tak, jakby została przekazana za pomocą opcji <link linkend=\"mkvpropedit.description.debug\"><option>--debug</option></link>."
 
 #. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
 #: doc/man/mkvpropedit.xml:885
@@ -5653,7 +5649,7 @@ msgstr "<varname>MKVPROPEDIT_ENGAGE</varname>, <varname>MKVTOOLNIX_ENGAGE</varna
 #. type: Content of: <refentry><refsect1><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvpropedit.xml:887
 msgid "The content is treated as if it had been passed via the <link linkend=\"mkvpropedit.description.engage\"><option>--engage</option></link> option."
-msgstr ""
+msgstr "Treść jest traktowana tak, jakby została przekazana za pomocą opcji <link linkend=\"mkvpropedit.description.engage\"><option>--engage</option></link>."
 
 #. type: Content of: <refentry><refsect1><para>
 #: doc/man/mkvpropedit.xml:897
@@ -5672,31 +5668,23 @@ msgstr "Interfejs graficzny dla &mkvmerge; zawierający edytor rozdziałów i ed
 
 #. type: Content of: <refentry><refsynopsisdiv><cmdsynopsis>
 #: doc/man/mkvtoolnix-gui.xml:51
-#, fuzzy
-#| msgid "<command>mkvtoolnix-gui</command> <group> <arg choice=\"opt\">configuration-file-name.mtxcfg</arg> <arg choice=\"opt\">source-file.ext</arg> <arg choice=\"opt\">--edit-chapters <arg>chapter-file.ext</arg></arg> <arg choice=\"opt\">--edit-headers <arg>matroska-file.mkv</arg></arg> </group>"
 msgid "<command>mkvtoolnix-gui</command> <group> <arg choice=\"opt\">configuration-file-name.mtxcfg</arg> <arg choice=\"opt\">source-file.ext</arg> <arg choice=\"opt\">--info <arg>matroska-file.mkv</arg></arg> <arg choice=\"opt\">--edit-chapters <arg>chapter-file.ext</arg></arg> <arg choice=\"opt\">--edit-headers <arg>matroska-file.mkv</arg></arg> </group>"
-msgstr "<command>mkvtoolnix-gui</command> <group> <arg choice=\"opt\">plik-konfiguracyjny.mtxcfg</arg> <arg choice=\"opt\">plik-źródłowy.xyz</arg> <arg choice=\"opt\">--edit-chapters <arg>plik-rozdziałów.xyz</arg></arg> <arg choice=\"opt\">--edit-headers <arg>plik-matroski.mkv</arg></arg> </group>"
+msgstr "<command>mkvtoolnix-gui</command> <group> <arg choice=\"opt\">nazwa-pliku-konfiguracyjnego.mtxcfg</arg> <arg choice=\"opt\">plik-źródłowy.rozszerzenie</arg> <arg choice=\"opt\">--info <arg>plik-matroska.mkv</arg></arg> <arg choice=\"opt\">--edit-chapters <arg>plik-rozdziału.rozszerzenie</arg></arg> <arg choice=\"opt\">--edit-headers <arg>plik-matroska.mkv</arg></arg> </group>"
 
 #. type: Content of: <refentry><refsect1><para>
 #: doc/man/mkvtoolnix-gui.xml:65
-#, fuzzy
-#| msgid "&mkvtoolnix-gui; is a <productname>Qt</productname> based <abbrev>GUI</abbrev> for &mkvmerge; (and will evolve to cover &mkvinfo; and &mkvextract; as well). It offers easy access to most of &mkvmerge;'s options. All settings (e.g. source files, track options etc) can be saved and restored."
 msgid "&mkvtoolnix-gui; is a <productname>Qt</productname> based <abbrev>GUI</abbrev> for &mkvmerge;. It also implements &mkvinfo;'s and &mkvpropedit;'s functionality and will evolve to cover &mkvextract; as well. All settings (e.g. source files, track options etc) can be saved and restored."
-msgstr "&mkvtoolnix-gui; jest opartym o <productname>biblioteki Qt</productname> <abbrev>graficznym interfejsem</abbrev> dla &mkvmerge; (w przyszłości także dla &mkvinfo; i &mkvextract;). Oferuje on łatwy dostęp do większości funkcji &mkvmerge;. Wszystkie ustawienia (np. pliki źródłowe, opcje ścieżek itp) mogą być zapisane i wczytane."
+msgstr "&mkvtoolnix-gui; to oparty na <productname>Qt</productname> <abbrev>graficzny interfejs użytkownika</abbrev> dla &mkvmerge;. Implementuje on również funkcjonalność &mkvinfo; i &mkvpropedit;, a będzie rozwijany, aby objąć również &mkvextract;. Wszystkie ustawienia (np. pliki źródłowe, opcje ścieżki itp.) można zapisać i przywrócić."
 
 #. type: Content of: <refentry><refsect1><para>
 #: doc/man/mkvtoolnix-gui.xml:71
-#, fuzzy
-#| msgid "Listing configuration file names with the extension <literal>.mtxcfg</literal> causes the GUI to load the those configuration files in the appropriate tool. Any other file name is added as an input file for merging, opened in the chapter editor or in the header editor depending on the current mode. The current mode can be changed with <option>--merge</option>, <option>--edit-chapters</option> or <option>--edit-headers</option>. The default mode is adding files for merging."
 msgid "Listing configuration file names with the extension <literal>.mtxcfg</literal> causes the GUI to load the those configuration files in the appropriate tool. Any other file name is added as a source file for multiplexing, opened in the info tool, the chapter editor or in the header editor depending on the current mode. The current mode can be changed with <option>--merge</option>, <option>--info</option>, <option>--edit-chapters</option> or <option>--edit-headers</option>. The default mode is adding files for multiplexing."
-msgstr "Użycie pliku konfiguracyjnego z rozszerzeniem <literal>.mtxcfg</literal> powoduje, że interfejs graficzny otwiera plik konfiguracyjny w odpowiednim narzędziu. Jakikolwiek plik z innym rozszerzeniem jest traktowany jako plik wejściowy, jest otwierany w edytorze rozdziałów lub edytorze nagłówków zależnie od ustawionego trybu. Tryb może być zmieniony opcją <option>--merge</option>, <option>--edit-chapters</option> lub <option>--edit-headers</option>. Domyślny tryb to dodawanie plików celem muksowania."
+msgstr "Podanie nazw plików konfiguracyjnych z rozszerzeniem <literal>.mtxcfg</literal> powoduje, że interfejs graficzny użytkownika (GUI) ładuje te pliki konfiguracyjne do odpowiedniego narzędzia. Każda inna nazwa pliku jest dodawana jako plik źródłowy do multipleksowania i otwierana w narzędziu informacyjnym, edytorze rozdziałów lub edytorze nagłówków, w zależności od bieżącego trybu. Aktualny tryb można zmienić za pomocą <option>--merge</option>, <option>--info</option>, <option>--edit-chapters</option> lub <option>--edit-headers</option>. Domyślnym trybem jest dodawanie plików do multipleksowania."
 
 #. type: Content of: <refentry><refsect1><para>
 #: doc/man/mkvtoolnix-gui.xml:78
-#, fuzzy
-#| msgid "Note that if an instance of the application is already running when the application is started a second time all file names given on the command line are handled by the already-running instance."
 msgid "Note that if an instance of the application is already running when the application is started a second time, all file names given on the command line are handled by the already-running instance."
-msgstr "Zauważ, że jeśli już program działa, a będzie on jeszcze raz ponownie uruchomiony, to wszystkie nazwy plików w linii komend zostaną przejęte przez już działającą instancję programu."
+msgstr "Należy pamiętać, że jeśli podczas drugiego uruchomienia aplikacji pewna instancja jest już uruchomiona, wszystkie nazwy plików podane w wierszu poleceń są obsługiwane przez już uruchomioną instancję."
 
 #. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
 #: doc/man/mkvtoolnix-gui.xml:84
@@ -5828,7 +5816,7 @@ msgstr "Link do tego nagłówka"
 #: doc/stylesheets/docbook-to-html.xsl:145
 #, no-wrap
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #. type: Content of: <xsl:stylesheet><xsl:template><table><thead><tr><th>
 #: doc/stylesheets/docbook-to-html.xsl:130
