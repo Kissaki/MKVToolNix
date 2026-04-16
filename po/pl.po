@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: MKVToolNix\n"
 "Report-Msgid-Bugs-To: Moritz Bunkus <mo@bunkus.online>\n"
 "POT-Creation-Date: 2026-04-05 13:17+0200\n"
-"PO-Revision-Date: 2026-04-10 19:49+0200\n"
-"Last-Translator: Jakub A, 2025\n"
+"PO-Revision-Date: 2016-01-14 08:27+0000\n"
+"Last-Translator: Rudolf Schnapka <rs@techno-flex.de>, 2015\n"
 "Language-Team: Polish (http://app.transifex.com/moritz-bunkus/mkvtoolnix/language/pl/)\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -150,9 +150,9 @@ msgid "Invalid Base64 character encountered"
 msgstr "Napotkano nieprawidłowy znak Base64"
 
 #: src/common/bcp47.cpp:239
-#, fuzzy, no-c-format, c++-format
+#, no-c-format, c++-format
 msgid "The value '{}' is not a valid ISO 639 language code."
-msgstr "\"{0}\" nie jest prawidłowym kodem językowym ISO 639-2."
+msgstr "Wartość '{}' nie jest prawidłowym kodem języka ISO 639."
 
 #: src/common/bcp47.cpp:252
 #, fuzzy, no-c-format, c++-format
@@ -347,7 +347,7 @@ msgstr "Nieznana opcja \"{0}\".\n"
 #: src/merge/mkvmerge.cpp:89
 #, no-c-format
 msgid "Increase verbosity."
-msgstr "Zwiększ szczegółowość."
+msgstr "Zwiększ szczegółowość"
 
 #: src/common/cli_parser.cpp:189
 #: src/merge/mkvmerge.cpp:90
@@ -2330,7 +2330,7 @@ msgstr "Numer ścieżki rozdziału"
 #: src/common/kax_element_names.cpp:305
 #, no-c-format
 msgid "Chapter display"
-msgstr "Wyświetlanie rozdziałów"
+msgstr "Wyświetlanie rozdziału"
 
 #: src/common/kax_element_names.cpp:306
 #, no-c-format
@@ -2385,7 +2385,7 @@ msgstr "Rozdział przetwarza dane"
 #: src/common/kax_element_names.cpp:316
 #, no-c-format
 msgid "Chapter skip type"
-msgstr "Chapter skip type"
+msgstr "Typ pominięcia rozdziału"
 
 #: src/common/kax_element_names.cpp:318
 #: src/mkvtoolnix-gui/merge/track.cpp:746
@@ -3200,7 +3200,7 @@ msgid "Set if that track (audio, video or subs) SHOULD be used if no language fo
 msgstr "Ustaw parametr, jeśli ta ścieżka (audio, wideo, napisy) POWINNA być użyta w przypadku, gdy żaden język ścieżek w pliku nie odpowiada preferencji użytkownika."
 
 #: src/common/property_element.cpp:137
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "\"Track enabled\" flag"
 msgstr "Flaga \"Śledzenie włączone\""
 
@@ -11777,12 +11777,12 @@ msgstr "Wszystkie następujące nazwy plików zostaną otwarte w narzędziu info
 #: src/mkvtoolnix-gui/gui_cli_parser.cpp:60
 #, no-c-format
 msgid "All following file names will be opened in the chapter editor."
-msgstr "Wszystkie następujące pliki zostaną otworzone w edytorze rozdziałów."
+msgstr "Wszystkie następujące nazwy plików zostaną otwarte w edytorze rozdziałów."
 
 #: src/mkvtoolnix-gui/gui_cli_parser.cpp:61
 #, no-c-format
 msgid "All following file names will be opened in the header editor."
-msgstr "Wszystkie następujące pliki zostaną otworzone w edytorze nagłówków."
+msgstr "Wszystkie następujące nazwy plików zostaną otwarte w edytorze nagłówków."
 
 #: src/mkvtoolnix-gui/header_editor/attached_file_page.cpp:48
 #, no-c-format
@@ -12238,7 +12238,7 @@ msgstr "Resetuje wartości na tej stronie odnoszące się do nagłówków na tak
 #: src/mkvtoolnix-gui/header_editor/value_page.cpp:213
 #, no-c-format
 msgid "Note:"
-msgstr "Notatka:"
+msgstr "Uwaga:"
 
 #: src/mkvtoolnix-gui/info/element_highlighter.cpp:69
 #, fuzzy, no-c-format
@@ -18561,3 +18561,4 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 
 #~ msgid "{0}: Could not open the sub file"
 #~ msgstr "{0}: Nie można otworzyć pliku sub"
+
