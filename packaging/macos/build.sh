@@ -521,6 +521,7 @@ EOF
       if [[ ${FILE} != */MacOS/mkv* ]] non_executables+=(${FILE})
     }
 
+    harden=""
     if [[ -n ${NOTARY_PROFILE} ]] harden="--options=runtime"
 
     codesign --force --sign ${SIGNATURE_IDENTITY} ${non_executables}
