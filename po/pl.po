@@ -7,15 +7,16 @@ msgstr ""
 "Project-Id-Version: MKVToolNix\n"
 "Report-Msgid-Bugs-To: Moritz Bunkus <mo@bunkus.online>\n"
 "POT-Creation-Date: 2026-04-05 13:17+0200\n"
-"PO-Revision-Date: 2026-04-16 16:51+0200\n"
+"PO-Revision-Date: 2026-04-19 12:08+0200\n"
 "Last-Translator: JakubDriver <JakubDriver@gmail.com>\n"
 "Language-Team: Polish (http://app.transifex.com/moritz-bunkus/mkvtoolnix/language/pl/)\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Generator: Poedit 3.9\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: src/common/audio_emphasis.cpp:49
 #, no-c-format
@@ -152,32 +153,32 @@ msgstr "Napotkano nieprawidłowy znak Base64"
 #: src/common/bcp47.cpp:239
 #, no-c-format, c++-format
 msgid "The value '{}' is not a valid ISO 639 language code."
-msgstr "Wartość \"{}” nie jest prawidłowym kodem języka zgodnym z normą ISO 639."
+msgstr "'{}' nie jest prawidłowym kodem językowym ISO 639-2."
 
 #: src/common/bcp47.cpp:252
-#, fuzzy, no-c-format, c++-format
+#, no-c-format, c++-format
 msgid "The value '{}' is not a valid ISO 15924 script code."
-msgstr "Wartość '{}' nie jest prawidłowym kodem skryptu ISO 15924."
+msgstr "'{}' nie jest prawidłowym kodem językowym ISO 639-2."
 
 #: src/common/bcp47.cpp:266
-#, fuzzy, no-c-format, c++-format
+#, no-c-format, c++-format
 msgid "The value '{}' is not a valid ISO 3166-1 country code."
-msgstr "Wartość '{}' nie jest prawidłowym kodem kraju ISO 3166-1."
+msgstr "'{}' nie jest prawidłowym kodem ccTLD dla państwa."
 
 #: src/common/bcp47.cpp:284
-#, fuzzy, no-c-format, c++-format
+#, no-c-format, c++-format
 msgid "The value '{}' is not a valid UN M.49 country number code."
-msgstr "Wartość '{}' nie jest prawidłowym kodem kraju UN M.49."
+msgstr "'{}' nie jest prawidłowym kodem ccTLD dla państwa."
 
 #: src/common/bcp47.cpp:301
 #, no-c-format, c++-format
 msgid "The value '{}' is not part of the IANA Language Subtag Registry for extended language subtags."
-msgstr "Wartość \"{}” nie jest częścią rejestru podtagów językowych IANA dla rozszerzonych podtagów językowych."
+msgstr "Wartość '{}' nie jest częścią rejestru podtagów językowych IANA dla rozszerzonych podtagów językowych."
 
 #: src/common/bcp47.cpp:316
 #, no-c-format, c++-format
 msgid "The value '{}' is not part of the IANA Language Subtag Registry for language variants."
-msgstr "Wartość \"{}” nie jest częścią rejestru podznaczników językowych IANA dla wariantów językowych."
+msgstr "Wartość '{}' nie jest częścią rejestru podznaczników językowych IANA dla wariantów językowych."
 
 #: src/common/bcp47.cpp:448
 #, no-c-format, c++-format
@@ -200,9 +201,9 @@ msgid "Each extension identifier must be used at most once."
 msgstr "Każdy identyfikator rozszerzenia może zostać użyty najwyżej raz."
 
 #: src/common/bcp47.cpp:494
-#, fuzzy, no-c-format, c++-format
+#, no-c-format, c++-format
 msgid "The value '{0}' is not a registered IANA language tag identifier."
-msgstr "Wartość  '{0}' nie jest zarejestrowanym identyfikatorem kodu języka IANA."
+msgstr "'{0}' nie jest prawidłowym kodem językowym ISO 639-2."
 
 #: src/common/bcp47.cpp:520
 #, no-c-format
@@ -326,28 +327,30 @@ msgstr "Analizator arkusza cue: Nieprawidłowy numer INDEX (otrzymano {0}, oczek
 #: src/common/chapters/dvd.cpp:133
 #, no-c-format, c++-format
 msgid "'{0}' is not a valid DVD title number."
-msgstr "\"{0}” nie jest prawidłowym numerem tytułu DVD."
+msgstr "'{0}' nie jest prawidłowym numerem tytułu DVD."
 
 #: src/common/chapters/dvd.cpp:149
 #, no-c-format, c++-format
 msgid "The title number '{0}' is higher than the number of titles on the DVD ({1})."
-msgstr "Numer tytułu \"{0}” jest większy niż liczba tytułów na płycie DVD ({1})."
+msgstr "Numer tytułu '{0}' jest większy niż liczba tytułów na płycie DVD ({1})."
 
 #: src/common/cli_parser.cpp:116
 #, no-c-format, c++-format
 msgid "Missing argument to '{0}'.\n"
-msgstr "Brakuje wartości dla \"{0}\".\n"
+msgstr "Brakuje wartości dla '{0}'.\n"
 
 #: src/common/cli_parser.cpp:125
 #, no-c-format, c++-format
 msgid "Unknown option '{0}'.\n"
-msgstr "Nieznana opcja \"{0}\".\n"
+msgstr ""
+"Nieznana opcja '{0}'.\n"
+"\n"
 
 #: src/common/cli_parser.cpp:188
 #: src/merge/mkvmerge.cpp:89
 #, no-c-format
 msgid "Increase verbosity."
-msgstr "Zwiększ szczegółowość"
+msgstr "Zwiększ szczegółowość."
 
 #: src/common/cli_parser.cpp:189
 #: src/merge/mkvmerge.cpp:90
@@ -415,7 +418,7 @@ msgstr "Pokaż informacje o wersji."
 #: src/propedit/attachment_target.cpp:67
 #, no-c-format, c++-format
 msgid "The file '{0}' could not be opened for reading: {1}.\n"
-msgstr "Plik \"{0}\" nie mógł zostać otwarty w celu wczytania: {1}\n"
+msgstr "Plik '{0}' nie mógł zostać otwarty w celu wczytania: {1}.\n"
 
 #: src/common/command_line.cpp:61
 #: src/common/command_line.cpp:65
@@ -426,32 +429,32 @@ msgstr "Pliki opcji w formacie JSON muszą zawierać tablicę JSON, składając�
 #: src/common/command_line.cpp:120
 #, no-c-format
 msgid "'--command-line-charset' is missing its argument.\n"
-msgstr "\"--command-line-charset\" brakuje parametru.\n"
+msgstr "'--command-line-charset' brakuje parametru.\n"
 
 #: src/common/command_line.cpp:204
 #, no-c-format
 msgid "'--engage' lacks its argument.\n"
-msgstr "\"--engage\" brakuje parametru.\n"
+msgstr "'--engage' brakuje parametru.\n"
 
 #: src/common/command_line.cpp:234
 #, no-c-format
 msgid "Missing argument for '--output-charset'.\n"
-msgstr "Brakuje wartości dla \"--output-charset\".\n"
+msgstr "Brakuje wartości dla '--output-charset'.\n"
 
 #: src/common/command_line.cpp:248
 #, no-c-format, c++-format
 msgid "'{0}' is missing the file name.\n"
-msgstr "\"{0}\" nie zawiera nazwy pliku.\n"
+msgstr "'{0}' nie zawiera nazwy pliku.\n"
 
 #: src/common/command_line.cpp:257
 #, no-c-format, c++-format
 msgid "Could not open the file '{0}' for directing the output.\n"
-msgstr "Nie można otworzyć pliku \"{0}\", aby przekazać do wyjścia.\n"
+msgstr "Nie można otworzyć pliku '{0}', aby przekazać do wyjścia.\n"
 
 #: src/common/command_line.cpp:268
 #, no-c-format
 msgid "Missing argument for '--ui-language'.\n"
-msgstr "Brakuje wartości dla '--ui-język'..\n"
+msgstr "Brakuje wartości dla '--ui-language'.\n"
 
 #: src/common/command_line.cpp:271
 #, no-c-format
@@ -1795,7 +1798,7 @@ msgstr "Typ ścieżki"
 #: src/common/kax_element_names.cpp:196
 #, no-c-format
 msgid "\"Enabled\" flag"
-msgstr "Flaga \"Włączone”"
+msgstr "Flaga ”Włączone”"
 
 #: src/common/kax_element_names.cpp:197
 #: src/common/kax_element_names.cpp:328
@@ -3281,7 +3284,7 @@ msgstr "Opóźnienie w dekodowaniu, jakie zakłada dany format kodeka, wyrażone
 #: src/common/property_element.cpp:153
 #, no-c-format
 msgid "Set if the BlockAdditional element with BlockAddID of '1' contains alpha channel data."
-msgstr "Ustaw, czy element BlockAdditional o identyfikatorze BlockAddID równym \"1” zawiera dane kanału alfa."
+msgstr "Ustaw, czy element BlockAdditional o identyfikatorze BlockAddID równym '1' zawiera dane kanału alfa."
 
 #: src/common/property_element.cpp:154
 #, no-c-format
@@ -3868,27 +3871,24 @@ msgstr "obydwa widoki w jednym bloku (prawe pierwsze)"
 msgid "{0} second"
 msgid_plural "{0} seconds"
 msgstr[0] "{0} sekunda"
-msgstr[1] "{0} sekund"
+msgstr[1] "{0} sekundy"
 msgstr[2] "{0} sekunda"
-msgstr[3] "{0} sekunda"
 
 #: src/common/strings/formatting.cpp:282
 #, no-c-format, c++-format
 msgid "{0} minute"
 msgid_plural "{0} minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "{0} minuta"
+msgstr[1] "{0} minuty"
+msgstr[2] "{0} minuta"
 
 #: src/common/strings/formatting.cpp:292
 #, no-c-format, c++-format
 msgid "{0} byte"
 msgid_plural "{0} bytes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "{0} bajt"
+msgstr[1] "{0} bajty"
+msgstr[2] "{0} bajt"
 
 #: src/common/strings/formatting.cpp:298
 #, no-c-format, c++-format
@@ -5733,36 +5733,33 @@ msgid ", file name '{0}'"
 msgstr ", nazwa pliku \"{0}\""
 
 #: src/merge/generic_reader.cpp:299
-#, fuzzy, no-c-format, c++-format
+#, no-c-format, c++-format
 msgid "Chapters: {0} entry"
 msgid_plural "Chapters: {0} entries"
 msgstr[0] "Rozdziały: {0} pozycja"
 msgstr[1] "Rozdziały: {0} pozycje"
-msgstr[2] "Rozdziały: {0} pozycji"
-msgstr[3] ""
+msgstr[2] "Rozdziały: {0} wpisów"
 
 #: src/merge/generic_reader.cpp:305
-#, fuzzy, no-c-format, c++-format
+#, no-c-format, c++-format
 msgid "Global tags: {0} entry"
 msgid_plural "Global tags: {0} entries"
-msgstr[0] "Tagi globalne: {0} pozycja"
+msgstr[0] "Tagi globalne: {0} wpis"
 msgstr[1] "Tagi globalne: {0} pozycje"
 msgstr[2] "Tagi globalne: {0} pozycji"
-msgstr[3] ""
 
 #: src/merge/generic_reader.cpp:308
-#, fuzzy, no-c-format, c++-format
+#, no-c-format, c++-format
 msgid "Tags for track ID {0}: {1} entry"
 msgid_plural "Tags for track ID {0}: {1} entries"
-msgstr[0] "Tagi dla ID ścieżki {0}: {1} pozycja"
-msgstr[1] "Tagi dla ID ścieżki {0}: {1} pozycje"
-msgstr[2] "Tagi dla ID ścieżki {0}: {1} pozycji"
-msgstr[3] ""
+msgstr[0] "Nie podano ID ścieżki w {0}: {1}"
+msgstr[1] "Nie podano ID ścieżki w {0}: {1}"
+msgstr[2] "Nie podano ID ścieżki w {0}: {1}"
 
 #: src/merge/generic_reader.cpp:500
 #, no-c-format, c++-format
 msgid "Using the demultiplexer for the format '{0}'.\n"
-msgstr "Użycie demultipleksera dla formatu \"{0}\".\n"
+msgstr "Użycie demultipleksera dla formatu '{0}'.\n"
 
 #: src/merge/generic_reader.cpp:506
 #, no-c-format, c++-format
@@ -5924,7 +5921,7 @@ msgid ""
 "                           the tracks will sorted by type (video, audio,\n"
 "                           subtitles, others).\n"
 msgstr ""
-"--śledź zamówienier <FileID1:TID1,FileID2:TID2,FileID3:TID3,...>\n"
+"  --śledź zamówienier <FileID1:TID1,FileID2:TID2,FileID3:TID3,...>\n"
 "                           Lista oddzielonych przecinkami identyfikatorów plików\n"
 "                           i identyfikatorów ścieżek, która kontroluje kolejność\n"
 "                           ścieżek w pliku docelowym. Jeśli nie zostanie podany,\n"
@@ -5979,7 +5976,7 @@ msgid ""
 "  --date <timestamp>       Set the 'date' field (UTC or with offset,\n"
 "                           e.g. 2017-03-28T17:28:00Z).\n"
 msgstr ""
-"  --date <znacznik czasu> Ustaw pole „data” (UTC lub z przesunięciem,\n"
+"  --date <znacznik czasu> Ustaw pole 'data' (UTC lub z przesunięciem,\n"
 "                           np. 2017-03-28T17:28:00Z).\n"
 
 #: src/merge/mkvmerge.cpp:143
@@ -6012,11 +6009,7 @@ msgid ""
 "                           Normalize all IETF BCP 47 language tags to either\n"
 "                           their canonical or their extended language subtags\n"
 "                           form or not at all (default: canonical form).\n"
-msgstr ""
-"  --normalizuj-język-ietf <canonical|extlang|off>\n"
-"                           Znormalizuj wszystkie znaczniki językowe IETF BCP 47 do\n"
-"                           ich kanoniczne lub rozszerzone podtagi językowe\n"
-"                           formie lub wcale (domyślnie: forma kanoniczna).\n"
+msgstr "  Wszystkie znaczniki językowe IETF BCP 47 w zmienionych elementach należy znormalizować albo do postaci kanonicznej (tryb \"canonical”), albo do postaci rozszerzonych podznaczników językowych (tryb \"extlang”), albo w ogóle nie normalizować (tryb \"off”)\n"
 
 #: src/merge/mkvmerge.cpp:152
 #, no-c-format
@@ -6360,9 +6353,7 @@ msgstr "  --no-chapters            Nie wczytuje rozdziałów z pliku źródłowe
 msgid ""
 "  --regenerate-track-uids  Generate new random track UIDs instead of keeping\n"
 "                           existing ones.\n"
-msgstr ""
-"  --regeneruj-ślady-uid  Generate new random track UIDs instead of keeping\n"
-"                           istniejących.\n"
+msgstr "  Generuj nowe losowe identyfikatory UID ścieżek zamiast zachowywać dotychczasowe.\n"
 
 #: src/merge/mkvmerge.cpp:242
 #, no-c-format
@@ -6391,7 +6382,7 @@ msgid ""
 "                           forces it not to be present if bool is 0.\n"
 msgstr ""
 "  --default-track-flag <TID[:bool]>\n"
-"                           Ustawia flagę „domyślnego utworu” dla tego utworu lub\n"
+"                           Ustawia flagę \"domyślnego utworu” dla tego utworu lub\n"
 "                           wymusza, aby nie było obecne, jeśli bool wynosi 0.\n"
 
 #: src/merge/mkvmerge.cpp:252
@@ -6402,7 +6393,7 @@ msgid ""
 "                           forces it not to be present if bool is 0.\n"
 msgstr ""
 "  --forced-display-flag <TID[:bool]>\n"
-"                           Ustawia flagę „wymuszonego wyświetlania” dla tego utworu lub\n"
+"                           Ustawia flagę \"wymuszonego wyświetlania” dla tego utworu lub\n"
 "                           wymusza, aby nie było obecne, jeśli bool wynosi 0.\n"
 
 #: src/merge/mkvmerge.cpp:255
@@ -6424,7 +6415,7 @@ msgid ""
 "                           forces it not to be present if bool is 0.\n"
 msgstr ""
 "  --flaga dla osób niedosłyszących <TID[:bool]>\n"
-"                           Ustawia flagę „osoba niedosłysząca” dla tego utworu lub\n"
+"                           Ustawia flagę \"osoba niedosłysząca” dla tego utworu lub\n"
 "                           wymusza, aby nie było obecne, jeśli bool wynosi 0.\n"
 
 #: src/merge/mkvmerge.cpp:261
@@ -6435,7 +6426,7 @@ msgid ""
 "                           forces it not to be present if bool is 0.\n"
 msgstr ""
 "  --flaga dla osób słabowidzących <TID[:bool]>\n"
-"                           Ustawia flagę „osoba niedowidząca” dla tego utworu lub\n"
+"                           Ustawia flagę \"osoba niedowidząca” dla tego utworu lub\n"
 "                           forces it not to be present if bool is 0.\n"
 
 #: src/merge/mkvmerge.cpp:264
@@ -6457,7 +6448,7 @@ msgid ""
 "                           forces it not to be present if bool is 0.\n"
 msgstr ""
 "  --oryginalna flaga <TID[:bool]>\n"
-"                           Ustawia flagę „języka oryginalnego” dla tego utworu lub\n"
+"                           Ustawia flagę \"języka oryginalnego” dla tego\" utworu lub\n"
 "                          wymusza, aby nie było obecne, jeśli bool wynosi 0.\n"
 
 #: src/merge/mkvmerge.cpp:270
@@ -6468,13 +6459,13 @@ msgid ""
 "                           forces it not to be present if bool is 0.\n"
 msgstr ""
 "  --flaga komentarza<TID[:bool]>\n"
-"                           Ustawia flagę „komentarza” dla tego utworu lub\n"
+"                           Ustawia flagę \"komentarza” dla tego utworu lub\n"
 "                           wymusza, aby nie było obecne, jeśli bool wynosi 0.\n"
 
 #: src/merge/mkvmerge.cpp:273
 #, no-c-format
 msgid "  --track-name <TID:name>  Sets the name for a track.\n"
-msgstr "  --nazwa utworu <TID:nazwa>  Ustawia nazwę ścieżki.\n"
+msgstr "  --track-name <TID:nazwa>  Ustawia nazwę ścieżki.\n"
 
 #: src/merge/mkvmerge.cpp:274
 #, no-c-format
@@ -6515,7 +6506,7 @@ msgstr ""
 #: src/merge/mkvmerge.cpp:284
 #, no-c-format
 msgid " Options that only apply to audio tracks:\n"
-msgstr "Opcje mające zastosowanie tylko do ścieżek obrazu\n"
+msgstr " Opcje mające zastosowanie tylko do ścieżek obrazu:\n"
 
 #: src/merge/mkvmerge.cpp:285
 #, no-c-format
@@ -7255,7 +7246,7 @@ msgid "Invalid format for '--split' in '--split {0}'.\n"
 msgstr "Nieprawidłowy format dla \"--split\" w \"--split {0}\".\n"
 
 #: src/merge/mkvmerge.cpp:1319
-#, no-c-format
+#, no-c-format, c++-format
 msgid "Invalid boolean option specified in '{0} {1}'.\n"
 msgstr "Określono nieprawidłową opcję logiczną w '{0} {1}'.\n"
 
@@ -7724,12 +7715,12 @@ msgstr "\"--cluster-length\" brakuje podanej długości.\n"
 #: src/merge/mkvmerge.cpp:2394
 #, no-c-format
 msgid "'--date' lacks the date & time argument.\n"
-msgstr "\"--date” brakuje argumentu określającego datę i godzinę.\n"
+msgstr "'--engage' brakuje parametru.\n"
 
 #: src/merge/mkvmerge.cpp:2397
-#, no-c-format
+#, no-c-format, c++-format
 msgid "The value for '--date' is not a valid date & time: '{0}'\n"
-msgstr "Wartość podana dla opcji \"--date” nie jest prawidłową datą i godziną: \"{0}”\n"
+msgstr "Wartość właściwości nie jest prawidłowym ciągiem daty i czasu w '{0}'.\n"
 
 #: src/merge/mkvmerge.cpp:2422
 #, no-c-format
@@ -7907,13 +7898,12 @@ msgid "No source files were given.\n"
 msgstr "Nie podano plików źródłowych.\n"
 
 #: src/merge/mkvmerge.cpp:3069
-#, fuzzy, no-c-format, c++-format
+#, no-c-format, c++-format
 msgid "Scanning {0} files in {1} playlist.\n"
 msgid_plural "Scanning {0} files in {1} playlists.\n"
-msgstr[0] "Skanowanie {0} plików w {1} liście odtwarzania.\n"
+msgstr[0] "Skanowanie {0} plików na liście odtwarzania {1}.\n"
 msgstr[1] "Skanowanie {0} plików w {1} listach odtwarzania.\n"
 msgstr[2] "Skanowanie {0} plików w {1} listach odtwarzania.\n"
-msgstr[3] ""
 
 #: src/merge/mkvmerge.cpp:3109
 #, no-c-format
@@ -7921,13 +7911,12 @@ msgid "Done scanning playlists.\n"
 msgstr "Wykonano skanowanie list odtwarzania.\n"
 
 #: src/merge/mkvmerge.cpp:3155
-#, fuzzy, no-c-format
+#, no-c-format, c++-format
 msgid "Only {0} chapter found in source files & chapter files."
 msgid_plural "Only {0} chapters found in source files & chapter files."
-msgstr[0] "W plikach źródłowych i plikach rozdziałów nie ma rozdziałów."
-msgstr[1] "Znaleziono tylko {0} rozdziałów w plikach źródłowych i plikach rozdziałów."
+msgstr[0] "Znaleziono tylko {0} rozdziałów w plikach źródłowych i plikach rozdziałów."
+msgstr[1] "Znaleziono tylko {0} rozdziały w plikach źródłowych i plikach rozdziałów."
 msgstr[2] "Znaleziono tylko {0} rozdziałów w plikach źródłowych i plikach rozdziałów."
-msgstr[3] ""
 
 #: src/merge/mkvmerge.cpp:3156
 #, no-c-format
@@ -7980,7 +7969,7 @@ msgstr "Wystąpiła ogólna awaria odczytu lub zapisu."
 #: src/propedit/propedit.cpp:115
 #, no-c-format
 msgid "Updating the 'document type version' or 'document type read version' header fields failed."
-msgstr "Nie udało się zaktualizować pól nagłówka \"wersja typu dokumentu” lub \"wersja odczytu typu dokumentu”."
+msgstr "Nie udało się zaktualizować pól nagłówka \"wersja typu dokumentu” lub 'wersja odczytu typu dokumentu'."
 
 #: src/merge/output_control.cpp:249
 #, no-c-format
@@ -8133,7 +8122,7 @@ msgstr "Podział utworów tego typu nie jest obsługiwany."
 #: src/merge/output_control.cpp:1144
 #, no-c-format, c++-format
 msgid "The track ID {0} from the file '{1}' cannot be split. {2}\n"
-msgstr "Identyfikatora ścieżki {0} z pliku '{1}' nie można podzielić. {2}\n"
+msgstr "Ścieżka o numerze {0} z pliku '{1}' nie może być scalona ze ścieżką o numerze {2} z pliku.\n"
 
 #: src/merge/output_control.cpp:1394
 #, no-c-format, c++-format
@@ -8148,12 +8137,16 @@ msgstr "Plik \"{0}\" został otworzony w celu zapisania.\n"
 #: src/merge/output_control.cpp:1642
 #, no-c-format, c++-format
 msgid "The file '{0}' was renamed to '{1}'.\n"
-msgstr "Nazwę pliku \"{0}” zmieniono na \"{1}”.\n"
+msgstr ""
+"Plik '{0}' nie mógł zostać otwarty w celu wczytania '{1}'.\n"
+"\n"
 
 #: src/merge/output_control.cpp:1644
-#, fuzzy, no-c-format, c++-format
+#, no-c-format, c++-format
 msgid "The file '{0}' could not be renamed to '{1}'.\n"
-msgstr "Plik \"{0}\" nie mógł zostać otwarty w celu wczytania: {1}\n"
+msgstr ""
+"Plik '{0}' nie mógł zostać otwarty w celu wczytania '{1}'.\n"
+"\n"
 
 #: src/merge/output_control.cpp:1680
 #, no-c-format
@@ -8256,12 +8249,14 @@ msgstr "Linia {0} pliku \"{1}\" ze znacznikami czasu zawiera niespójne dane (np
 #: src/merge/timestamp_factory.cpp:377
 #, no-c-format, c++-format
 msgid "The timestamp file '{0}' is invalid: {1}\n"
-msgstr "Plik znacznika czasu \"{0}” jest nieprawidłowy: {1}\n"
+msgstr ""
+"Plik ze znacznikami czasu '{0}' nie zawiera żadnej poprawnej pozycji: {1}\n"
+"\n"
 
 #: src/merge/timestamp_factory.cpp:244
-#, no-c-format
+#, fuzzy, no-c-format
 msgid "The 'assume' key must be set to the default number of frames per second."
-msgstr "Klawisz \"assume” musi być ustawiony na domyślną liczbę klatek na sekundę."
+msgstr "Plik ze znacznikami czasu \"{0}\" nie zawiera prawidłowej linii \"Assume\" z domyślną liczbą klatek na sekundę."
 
 #: src/merge/timestamp_factory.cpp:247
 #, no-c-format
@@ -8303,7 +8298,7 @@ msgstr "Klucz \"timestamps” musi istnieć i być tablicą."
 #: src/merge/timestamp_factory.cpp:377
 #, no-c-format, c++-format
 msgid "The timestamp number {0} must be an integer or floating point number."
-msgstr "Liczba znacznika czasu {0} musi być liczbą całkowitą lub zmiennoprzecinkową."
+msgstr "Linia {0} w pliku ze znacznikami czasu nie zawiera prawidłowej liczby zmiennoprzecinkowej."
 
 #: src/merge/timestamp_factory.cpp:389
 #, no-c-format, c++-format
@@ -8766,10 +8761,9 @@ msgstr "Pliki zakładek PotPlayer"
 #, no-c-format
 msgid "Opening %1 file in the chapter editor…"
 msgid_plural "Opening %1 files in the chapter editor…"
-msgstr[0] "Otwieranie %1 pliku w edytorze rozdziałów..."
-msgstr[1] "Otwieranie %1 plików w edytorze rozdziałów..."
-msgstr[2] "Otwieranie %1 plików w edytorze rozdziałów..."
-msgstr[3] "Otwieranie %1 plików w edytorze rozdziałów..."
+msgstr[0] "Otwieranie %1 pliku w edytorze rozdziału…"
+msgstr[1] "Otwieranie %1 plików w edytorze rozdziałów…"
+msgstr[2] "Otwieranie %1 pliku w edytorze rozdziału…"
 
 #: src/mkvtoolnix-gui/chapter_editor/tool.cpp:254
 #: src/mkvtoolnix-gui/header_editor/tab.cpp:957
@@ -10232,7 +10226,7 @@ msgstr "Podczas dodawania wielu plików za pomocą opcji \"Dodaj pliki źródło
 #: src/mkvtoolnix-gui/forms/main_window/preferences_dialog.h:2342
 #, no-c-format
 msgid "When adding d&irectories via drag && drop/copy && paste:"
-msgstr "Podczas dodawania katalogów metodą \"przeciągnij i upuść”/\"kopiuj i wklej”:"
+msgstr "Podczas dodawania katalogów metodą przeciągnij i upuść/kopiuj i wklej:"
 
 #: src/mkvtoolnix-gui/forms/main_window/preferences_dialog.h:2343
 #: src/mkvtoolnix-gui/forms/merge/adding_appending_files_dialog.h:174
@@ -11729,7 +11723,7 @@ msgstr "Przerwij z&adanie"
 #: src/mkvtoolnix-gui/forms/watch_jobs/tab.h:303
 #, no-c-format
 msgid "When &finished…"
-msgstr "Gdy &zakończono..."
+msgstr "Gdy &zakończono…"
 
 #: src/mkvtoolnix-gui/forms/watch_jobs/tab.h:304
 #, no-c-format
@@ -11856,7 +11850,6 @@ msgid_plural "%1 bytes (%2)"
 msgstr[0] "%1 bajt (%2)"
 msgstr[1] "%1 bajty (%2)"
 msgstr[2] "%1 bajtów (%2)"
-msgstr[3] "%1 bajtów (%2)"
 
 #: src/mkvtoolnix-gui/header_editor/attached_file_page.cpp:191
 #, no-c-format
@@ -12076,10 +12069,9 @@ msgstr "Pliki Matroska i WebM"
 #, no-c-format
 msgid "Opening %1 file in the header editor…"
 msgid_plural "Opening %1 files in the header editor…"
-msgstr[0] "Otwieranie %1 pliku w edytorze nagłówków..."
-msgstr[1] "Otwieranie %1 plików w edytorze nagłówków..."
-msgstr[2] "Otwieranie %1 plików w edytorze nagłówków..."
-msgstr[3] "Otwieranie %1 plików w edytorze nagłówków..."
+msgstr[0] "Otwieranie %1 pliku w edytorze nagłówków…"
+msgstr[1] "Otwieranie %1 plików w edytorze nagłówków…"
+msgstr[2] "Otwieranie %1 plików w edytorze nagłówków…"
 
 #: src/mkvtoolnix-gui/header_editor/tool.cpp:309
 #, no-c-format
@@ -12151,7 +12143,6 @@ msgid_plural "%1 channels"
 msgstr[0] "%1 kanał"
 msgstr[1] "%1 kanały"
 msgstr[2] "%1 kanałów"
-msgstr[3] "%1 kanałów"
 
 #: src/mkvtoolnix-gui/header_editor/track_type_page.cpp:139
 #: src/mkvtoolnix-gui/merge/select_playlist_dialog.cpp:112
@@ -12162,7 +12153,6 @@ msgid_plural "%1 bits per sample"
 msgstr[0] "%1 bit na próbkę"
 msgstr[1] "%1 bity na próbkę"
 msgstr[2] "%1 bitów na próbkę"
-msgstr[3] "%1 bitów na próbkę"
 
 #: src/mkvtoolnix-gui/header_editor/track_type_page.cpp:142
 #: src/mkvtoolnix-gui/merge/select_playlist_dialog.cpp:118
@@ -12258,13 +12248,12 @@ msgid "Note:"
 msgstr "Notatka:"
 
 #: src/mkvtoolnix-gui/info/element_highlighter.cpp:69
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Length: %1 byte"
 msgid_plural "Length: %1 bytes"
-msgstr[0] "%1 bajt (%2)"
-msgstr[1] "Długość: %1 bajtów"
-msgstr[2] "Długość: %1 bajt"
-msgstr[3] ""
+msgstr[0] "Długość: %1 bajt"
+msgstr[1] "Długość: %1 bajty"
+msgstr[2] "Długość: %1 bajtów"
 
 #: src/mkvtoolnix-gui/info/element_highlighter.cpp:77
 #, no-c-format
@@ -12432,7 +12421,7 @@ msgstr "Błąd podczas wczytywania pliku Matroska"
 #: src/mkvtoolnix-gui/info/tab.cpp:251
 #, no-c-format
 msgid "Loading…"
-msgstr "Wczytywanie..."
+msgstr "Wczytywanie…"
 
 #: src/mkvtoolnix-gui/info/tool.cpp:226
 #, no-c-format
@@ -12588,7 +12577,6 @@ msgid_plural "&Start jobs automatically"
 msgstr[0] "Rozpocznij zadanie auto&matycznie"
 msgstr[1] "Rozpocznij zadania auto&matycznie"
 msgstr[2] "Rozpocznij zadania auto&matycznie"
-msgstr[3] "Rozpocznij zadania auto&matycznie"
 
 #: src/mkvtoolnix-gui/jobs/tool.cpp:221
 #, no-c-format
@@ -12597,7 +12585,6 @@ msgid_plural "Start jobs &manually"
 msgstr[0] "&Rozpocznij zadanie ręcznie"
 msgstr[1] "&Rozpocznij zadania ręcznie"
 msgstr[2] "&Rozpocznij zadania ręcznie"
-msgstr[3] "&Rozpocznij zadania ręcznie"
 
 #: src/mkvtoolnix-gui/jobs/tool.cpp:222
 #, no-c-format
@@ -12606,7 +12593,6 @@ msgid_plural "Start jobs &immediately"
 msgstr[0] "Rozpocznij &zadanie natychmiast"
 msgstr[1] "Rozpocznij &zadania natychmiast"
 msgstr[2] "Rozpocznij &zadania natychmiast"
-msgstr[3] "Rozpocznij &zadania natychmiast"
 
 #: src/mkvtoolnix-gui/jobs/tool.cpp:223
 #, no-c-format
@@ -12615,7 +12601,6 @@ msgid_plural "&Remove jobs"
 msgstr[0] "&Usuń zadanie"
 msgstr[1] "&Usuń zadania"
 msgstr[2] "&Usuń zadania"
-msgstr[3] "&Usuń zadania"
 
 #: src/mkvtoolnix-gui/jobs/tool.cpp:289
 #: src/mkvtoolnix-gui/jobs/tool.cpp:320
@@ -12903,7 +12888,6 @@ msgid_plural "Problems with MKVToolNix installation"
 msgstr[0] "Problem z instalacją MKVToolNix"
 msgstr[1] "Problemy z instalacją MKVToolNix"
 msgstr[2] "Problemy z instalacją MKVToolNix"
-msgstr[3] "Problemy z instalacją MKVToolNix"
 
 #: src/mkvtoolnix-gui/main_window/main_window.cpp:844
 #, no-c-format
@@ -12912,7 +12896,6 @@ msgid_plural "Several problems have been detected with this installation of MKVT
 msgstr[0] "Wykryto problem z bieżącą instalacją programu MKVToolNix:"
 msgstr[1] "Wykryto kilka problemów z bieżącą instalacją programu MKVToolNix:"
 msgstr[2] "Wykryto kilka problemów z bieżącą instalacją programu MKVToolNix:"
-msgstr[3] "Wykryto kilka problemów z bieżącą instalacją programu MKVToolNix:"
 
 #: src/mkvtoolnix-gui/main_window/main_window.cpp:846
 #, no-c-format
@@ -12926,7 +12909,6 @@ msgid_plural "Please re-install MKVToolNix or fix the problems manually."
 msgstr[0] "Proszę ponownie zainstalować program MKVToolNix lub naprawić problem ręcznie."
 msgstr[1] "Proszę ponownie zainstalować program MKVToolNix lub naprawić problemy ręcznie."
 msgstr[2] "Proszę ponownie zainstalować program MKVToolNix lub naprawić problemy ręcznie."
-msgstr[3] "Proszę ponownie zainstalować program MKVToolNix lub naprawić problemy ręcznie."
 
 #: src/mkvtoolnix-gui/main_window/main_window.cpp:996
 #, no-c-format
@@ -13780,7 +13762,7 @@ msgstr "W przeciwnym razie pod wybranymi pozycjami będą widoczne wszystkie poz
 #: src/mkvtoolnix-gui/main_window/preferences_dialog.cpp:645
 #, no-c-format
 msgid "The entries in the 'selected' list on the right will be shown at the top of all the drop-down boxes with countries and regions in the program."
-msgstr "Wpisy z listy \"wybrane” po prawej stronie będą wyświetlane na górze wszystkich pól rozwijanych z krajami i regionami w programie."
+msgstr "Wpisy z listy 'wybrane' po prawej stronie będą wyświetlane na górze wszystkich pól rozwijanych z krajami i regionami w programie."
 
 #: src/mkvtoolnix-gui/main_window/preferences_dialog.cpp:651
 #, no-c-format
@@ -14001,7 +13983,6 @@ msgid_plural " seconds"
 msgstr[0] " sekunda"
 msgstr[1] " sekundy"
 msgstr[2] " sekund"
-msgstr[3] " sekund"
 
 #: src/mkvtoolnix-gui/main_window/preferences_dialog.cpp:1550
 #, no-c-format
@@ -14010,7 +13991,6 @@ msgid_plural " days"
 msgstr[0] " dzień"
 msgstr[1] " dni"
 msgstr[2] " dni"
-msgstr[3] " dni"
 
 #: src/mkvtoolnix-gui/main_window/preferences_dialog.cpp:1576
 #: src/mkvtoolnix-gui/main_window/preferences_dialog.cpp:1588
@@ -14035,7 +14015,7 @@ msgstr "Lista uznawanych języków ścieżek w nazwach plików nie może być pu
 #: src/mkvtoolnix-gui/main_window/preferences_dialog.cpp:1608
 #, no-c-format
 msgid "The value for deriving the 'commentary' flag from file names must be a valid regular expression."
-msgstr "Wyrażenie używane do wyodrębniania flagi \"commentary” z nazw plików musi być poprawnym wyrażeniem regularnym."
+msgstr "Wyrażenie używane do wyodrębniania flagi 'commentary' z nazw plików musi być poprawnym wyrażeniem regularnym."
 
 #: src/mkvtoolnix-gui/main_window/preferences_dialog.cpp:1624
 #, no-c-format
@@ -14265,7 +14245,7 @@ msgstr "Ścieżki absolutne plików źródłowych"
 #: src/mkvtoolnix-gui/main_window/prefs_run_program_widget.cpp:254
 #, fuzzy, no-c-format
 msgid "Chapter file's absolute path"
-msgstr "Ścieżka bezwzględna pliku docelowego"
+msgstr "Otwieranie %1 pliku w edytorze rozdziałów..."
 
 #: src/mkvtoolnix-gui/main_window/prefs_run_program_widget.cpp:256
 #, no-c-format
@@ -14298,22 +14278,20 @@ msgid "%1 automatic, %2 manual, %3 running"
 msgstr "%1 automatycznie, %2 ręcznie, %3 w trakcie"
 
 #: src/mkvtoolnix-gui/main_window/status_bar_progress_widget.cpp:116
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "%1+%2 warning"
 msgid_plural "%1+%2 warnings"
-msgstr[0] "%1 ostrzeżenie"
-msgstr[1] "%1 ostrzeżenia"
-msgstr[2] "%1 ostrzeżeń"
-msgstr[3] ""
+msgstr[0] "%1+%2 ostrzeżenie"
+msgstr[1] "%1+%2 ostrzeżenia"
+msgstr[2] "%1+%2 ostrzeżeń"
 
 #: src/mkvtoolnix-gui/main_window/status_bar_progress_widget.cpp:117
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "%1+%2 error"
 msgid_plural "%1+%2 errors"
-msgstr[0] "%1 błąd"
-msgstr[1] "%1 błędy"
-msgstr[2] "%1 błędów"
-msgstr[3] ""
+msgstr[0] "%1+%2 błąd"
+msgstr[1] "%1+%2 błędy"
+msgstr[2] "%1+%2 błędów"
 
 #: src/mkvtoolnix-gui/main_window/status_bar_progress_widget.cpp:131
 #, no-c-format
@@ -14381,7 +14359,7 @@ msgstr "Określa sposób, w jaki program mkvmerge oblicza znaczniki czasu podcza
 #: src/mkvtoolnix-gui/merge/additional_command_line_options_dialog.cpp:33
 #, no-c-format
 msgid "The default is 'file' with 'track' being an alternative mode."
-msgstr "Domyślnym trybem jest \"file”, a alternatywnym trybem jest \"track”."
+msgstr "Domyślnym trybem jest 'file', a alternatywnym trybem jest 'track'."
 
 #: src/mkvtoolnix-gui/merge/additional_command_line_options_dialog.cpp:35
 #, no-c-format
@@ -14503,7 +14481,7 @@ msgstr "To pole jest standardowo ustawione dla daty utworzenia pliku."
 #: src/mkvtoolnix-gui/merge/additional_command_line_options_dialog.cpp:63
 #, no-c-format
 msgid "Sets the 'date' field (UTC or with a time zone offset) in the segment information headers."
-msgstr "Ustawia pole \"data” (w formacie UTC lub z uwzględnieniem przesunięcia strefy czasowej) w nagłówkach informacji o segmencie."
+msgstr "Ustawia pole 'data' (w formacie UTC lub z uwzględnieniem przesunięcia strefy czasowej) w nagłówkach informacji o segmencie."
 
 #: src/mkvtoolnix-gui/merge/additional_command_line_options_dialog.cpp:67
 #, no-c-format
@@ -14567,7 +14545,6 @@ msgid_plural "The directory it is located in contains %1 other files with the sa
 msgstr[0] "Katalog źródłowy zawiera %1 plik z takim samym rozszerzeniem."
 msgstr[1] "Katalog źródłowy zawiera %1 pliki z takim samym rozszerzeniem."
 msgstr[2] "Katalog źródłowy zawiera %1 plików z takim samym rozszerzeniem."
-msgstr[3] "Katalog źródłowy zawiera %1 plików z takim samym rozszerzeniem."
 
 #: src/mkvtoolnix-gui/merge/ask_scan_for_playlists_dialog.cpp:53
 #, no-c-format
@@ -14581,7 +14558,6 @@ msgid_plural "Playlists shorter than %1 seconds will be ignored."
 msgstr[0] "Listy odtwarzania krótsze niż %1 sekunda będą pomijane."
 msgstr[1] "Listy odtwarzania krótsze niż %1 sekundy będą pomijane."
 msgstr[2] "Listy odtwarzania krótsze niż %1 sekund będą pomijane."
-msgstr[3] "Listy odtwarzania krótsze niż %1 sekund będą pomijane."
 
 #: src/mkvtoolnix-gui/merge/ask_scan_for_playlists_dialog.cpp:61
 #, no-c-format
@@ -14651,7 +14627,6 @@ msgid_plural "&Enable selected attachments"
 msgstr[0] "Włącz zaznaczony &załącznik"
 msgstr[1] "Włącz zaznaczon&e załączniki"
 msgstr[2] "Włącz zaznaczon&e załączniki"
-msgstr[3] "Włącz zaznaczon&e załączniki"
 
 #: src/mkvtoolnix-gui/merge/attachments.cpp:420
 #, no-c-format
@@ -14660,7 +14635,6 @@ msgid_plural "&Disable selected attachments"
 msgstr[0] "&Wyłącz zaznaczony załącznik"
 msgstr[1] "&Wyłącz zaznaczone załączniki"
 msgstr[2] "&Wyłącz zaznaczone załączniki"
-msgstr[3] "&Wyłącz zaznaczone załączniki"
 
 #: src/mkvtoolnix-gui/merge/attachments.cpp:434
 #, no-c-format
@@ -14669,7 +14643,6 @@ msgid_plural "&Remove attachments"
 msgstr[0] "&Usuń załącznik"
 msgstr[1] "&Usuń załączniki"
 msgstr[2] "&Usuń załączniki"
-msgstr[3] "&Usuń załączniki"
 
 #: src/mkvtoolnix-gui/merge/attachments.cpp:444
 #: src/mkvtoolnix-gui/merge/input.cpp:788
@@ -14753,7 +14726,7 @@ msgstr "Ustaw ten utwór jako domyślny do odtwarzania."
 #: src/mkvtoolnix-gui/merge/input.cpp:559
 #, no-c-format
 msgid "Players should prefer tracks with the default track flag set while taking into account user preferences such as the track's language."
-msgstr "Gracze powinni wybierać utwory z domyślnie zaznaczoną opcją \"utwór”, biorąc pod uwagę preferencje użytkownika, takie jak język utworu."
+msgstr "Gracze powinni wybierać utwory z domyślnie zaznaczoną opcją utwór, biorąc pod uwagę preferencje użytkownika, takie jak język utworu."
 
 #: src/mkvtoolnix-gui/merge/input.cpp:562
 #, no-c-format
@@ -15056,7 +15029,6 @@ msgid_plural "&Remove files"
 msgstr[0] "&Usuń plik"
 msgstr[1] "&Usuń pliki"
 msgstr[2] "&Usuń pliki"
-msgstr[3] "&Usuń pliki"
 
 #: src/mkvtoolnix-gui/merge/input.cpp:1753
 #, no-c-format
@@ -15065,7 +15037,6 @@ msgid_plural "Open files in &MediaInfo"
 msgstr[0] "Otwórz plik w &MediaInfo"
 msgstr[1] "Otwórz pliki w &MediaInfo"
 msgstr[2] "Otwórz pliki w &MediaInfo"
-msgstr[3] "Otwórz pliki w &MediaInfo"
 
 #: src/mkvtoolnix-gui/merge/input.cpp:1754
 #, no-c-format
@@ -15074,7 +15045,6 @@ msgid_plural "Select all &items from selected files"
 msgstr[0] "&Zaznacz wszystkie elementy z wybranego pliku"
 msgstr[1] "&Zaznacz wszystkie elementy z wybranych plików"
 msgstr[2] "&Zaznacz wszystkie elementy z wybranych plików"
-msgstr[3] "&Zaznacz wszystkie elementy z wybranych plików"
 
 #: src/mkvtoolnix-gui/merge/input.cpp:1774
 #, no-c-format
@@ -15083,7 +15053,6 @@ msgid_plural "Open corresponding files in &MediaInfo"
 msgstr[0] "Otwórz odpowiedni plik w &MediaInfo"
 msgstr[1] "Otwórz odpowiednie pliki w &MediaInfo"
 msgstr[2] "Otwórz odpowiednie pliki w &MediaInfo"
-msgstr[3] "Otwórz odpowiednie pliki w &MediaInfo"
 
 #: src/mkvtoolnix-gui/merge/input.cpp:1786
 #: src/mkvtoolnix-gui/merge/input.cpp:1787
@@ -15984,7 +15953,6 @@ msgid_plural "%1 entries"
 msgstr[0] "%1 pozycja"
 msgstr[1] "%1 pozycje"
 msgstr[2] "%1 pozycji"
-msgstr[3] "%1 pozycji"
 
 #: src/mkvtoolnix-gui/util/file.cpp:152
 #: src/mkvtoolnix-gui/util/option_file.cpp:31
@@ -16323,7 +16291,7 @@ msgstr "Przełącz flagę \"&wymuszonego wyświetlania”"
 #: src/mkvtoolnix-gui/util/modify_tracks_submenu.cpp:110
 #, no-c-format
 msgid "Toggle \"&original\" flag"
-msgstr "Przełącz flagę \"&oryginalny”"
+msgstr "Przełącz flagę \"&original”"
 
 #: src/mkvtoolnix-gui/util/modify_tracks_submenu.cpp:111
 #, no-c-format
@@ -16498,13 +16466,12 @@ msgstr "Ta ścieżka AC-3 zawiera na samym początku {0} bajtów danych, które 
 
 #: src/output/p_ac3.cpp:80
 #: src/output/p_mp3.cpp:68
-#, fuzzy, no-c-format, c++-format
+#, no-c-format, c++-format
 msgid "This audio track contains {0} byte of invalid data which was skipped before timestamp {1}."
 msgid_plural "This audio track contains {0} bytes of invalid data which were skipped before timestamp {1}."
 msgstr[0] "Ta ścieżka audio zawiera {0} bajtów błędnych danych, które zostały pominięte przed znacznikiem czasu {1}."
 msgstr[1] "Te ścieżki audio zawierają {0} bajtów błędnych danych, które zostały pominięte przed znacznikiem czasu {1}."
-msgstr[2] "Te ścieżki audio zawierają {0} bajtów błędnych danych, które zostały pominięte przed znacznikiem czasu {1}."
-msgstr[3] ""
+msgstr[2] "Ta ścieżka audio zawiera {0} bajtów nieprawidłowych danych, które zostały pominięte przed znacznikiem czasu {1}."
 
 #: src/output/p_ac3.cpp:83
 #: src/output/p_mp3.cpp:71
@@ -16515,7 +16482,7 @@ msgstr "Synchronizacja dźwięku z obrazem mogła zostać utracona."
 #: src/output/p_ac3.cpp:240
 #, no-c-format, c++-format
 msgid "ac3_bs_packetizer::add_to_buffer(): Untested code ('size' is odd). If mkvmerge crashes or if the resulting file does not contain the complete and correct audio track, then please open an issue over on {0}.\n"
-msgstr "ac3_bs_packetizer::add_to_buffer(): Kod nieprzetestowany (wartość \"size” jest nieparzysta). Jeśli program mkvmerge ulegnie awarii lub jeśli wynikowy plik nie będzie zawierał kompletnej i poprawnej ścieżki audio, prosimy o zgłoszenie problemu na stronie {0}.\n"
+msgstr "ac3_bs_packetizer::add_to_buffer(): Kod nieprzetestowany (wartość ”size” jest nieparzysta). Jeśli program mkvmerge ulegnie awarii lub jeśli wynikowy plik nie będzie zawierał kompletnej i poprawnej ścieżki audio, prosimy o zgłoszenie problemu na stronie {0}.\n"
 
 #: src/output/p_alac.h:31
 #, no-c-format
@@ -17253,12 +17220,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgstr[1] "%1 z %2 plików zostały przetworzone"
 #~ msgstr[2] "%1 z %2 plików zostało przetworzonych"
 
-#~ msgid ""
-#~ "%1% frame, track %2%, timestamp %3% (%4%), duration %|5$.3f|, size %6%, "
-#~ "adler 0x%|7$08x|%8%%9%\n"
-#~ msgstr ""
-#~ "%1% klatka, ścieżka %2%, kody czasowe %3% (%4%), czas trwania %|5$.3f|, "
-#~ "rozmiar %6%, adler 0x%|7$08x|%8%%9%\n"
+#~ msgid "%1% frame, track %2%, timestamp %3% (%4%), duration %|5$.3f|, size %6%, adler 0x%|7$08x|%8%%9%\n"
+#~ msgstr "%1% klatka, ścieżka %2%, kody czasowe %3% (%4%), czas trwania %|5$.3f|, rozmiar %6%, adler 0x%|7$08x|%8%%9%\n"
 
 #~ msgid "&About mkvinfo"
 #~ msgstr "&O mkvinfo"
@@ -17318,53 +17281,31 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgstr "&Zaznacz wszystko"
 
 #~ msgid "'%1%' is not recognized as a valid number format in '%2%'.\n"
-#~ msgstr ""
-#~ "\"%1% nie jest rozpoznawany jako prawidłowy numer formatu w \"%2%\".\n"
+#~ msgstr "\"%1% nie jest rozpoznawany jako prawidłowy numer formatu w \"%2%\".\n"
 
 #~ msgid "'Default track' flag"
 #~ msgstr "Flaga \"Domyślna ścieżka\""
 
-#~ msgid ""
-#~ "'{0}' is neither a valid ISO 639-2 nor a valid ISO 639-1 code in '--"
-#~ "chapter-language {0}'. See 'mkvmerge --list-languages' for a list of all "
-#~ "languages and their respective ISO 639-2 codes.\n"
-#~ msgstr ""
-#~ "\"{0}\" nie jest prawidłowym kodem ISO 639-2 ani ISO 639-1 w \"--chapter-"
-#~ "language {0}\". Uruchom \"mkvmerge --list-languages\", aby wyświetlić "
-#~ "listę wszystkich języków i odpowiadające im kody ISO 639-2.\n"
+#~ msgid "'{0}' is neither a valid ISO 639-2 nor a valid ISO 639-1 code in '--chapter-language {0}'. See 'mkvmerge --list-languages' for a list of all languages and their respective ISO 639-2 codes.\n"
+#~ msgstr "\"{0}\" nie jest prawidłowym kodem ISO 639-2 ani ISO 639-1 w \"--chapter-language {0}\". Uruchom \"mkvmerge --list-languages\", aby wyświetlić listę wszystkich języków i odpowiadające im kody ISO 639-2.\n"
 
-#~ msgid ""
-#~ "'{0}' is neither a valid ISO 639-2 nor a valid ISO 639-1 code in '--"
-#~ "default-language {0}'. See 'mkvmerge --list-languages' for a list of all "
-#~ "languages and their respective ISO 639-2 codes.\n"
-#~ msgstr ""
-#~ "\"{0}\" nie jest prawidłowym kodem ISO 639-2 ani ISO 639-1 w \"--default-"
-#~ "language {0}\". Uruchom \"mkvmerge --list-languages\", aby wyświetlić "
-#~ "listę wszystkich języków i odpowiadające im kody ISO 639-2.\n"
+#~ msgid "'{0}' is neither a valid ISO 639-2 nor a valid ISO 639-1 code in '--default-language {0}'. See 'mkvmerge --list-languages' for a list of all languages and their respective ISO 639-2 codes.\n"
+#~ msgstr "\"{0}\" nie jest prawidłowym kodem ISO 639-2 ani ISO 639-1 w \"--default-language {0}\". Uruchom \"mkvmerge --list-languages\", aby wyświetlić listę wszystkich języków i odpowiadające im kody ISO 639-2.\n"
 
 #~ msgid "'{0}' is not a valid block additional max in '--blockadd {1}'.\n"
 #~ msgstr "\"{0}\" nie jest prawidłową wartością w \"--blockadd {1}\".\n"
 
-#~ msgid ""
-#~ "'{0}' is not a valid pair of track ID and NALU size length in '--nalu-"
-#~ "size-length {0}'.\n"
-#~ msgstr ""
-#~ "\"{0}\" nie jest prawidłową kombinacją ID ścieżki i rozmiaru NALU w \"--"
-#~ "nalu-size-length {0}\".\n"
+#~ msgid "'{0}' is not a valid pair of track ID and NALU size length in '--nalu-size-length {0}'.\n"
+#~ msgstr "\"{0}\" nie jest prawidłową kombinacją ID ścieżki i rozmiaru NALU w \"--nalu-size-length {0}\".\n"
 
-#~ msgid ""
-#~ "'{0}' is not a valid pair of track ID and block additional in '--blockadd "
-#~ "{0}'.\n"
-#~ msgstr ""
-#~ "\"{0}\" nie jest prawidłową parą ID ścieżki i dodatku bloku w  \"--"
-#~ "blockadd {0}\".\n"
+#~ msgid "'{0}' is not a valid pair of track ID and block additional in '--blockadd {0}'.\n"
+#~ msgstr "\"{0}\" nie jest prawidłową parą ID ścieżki i dodatku bloku w  \"--blockadd {0}\".\n"
 
 #~ msgid "'{0}' is not a valid track ID in '--blockadd {1}'.\n"
 #~ msgstr "\"{0}\" nie jest prawidłowym ID ścieżki w \"--blockadd {1}\".\n"
 
 #~ msgid "'{0}' is not a valid track ID in '--nalu-size-length {1}'.\n"
-#~ msgstr ""
-#~ "\"{0}\" nie jest prawidłowym ID ścieżki w \"--nalu-size-length {1}\".\n"
+#~ msgstr "\"{0}\" nie jest prawidłowym ID ścieżki w \"--nalu-size-length {1}\".\n"
 
 #~ msgid "<No program selected yet>"
 #~ msgstr "<Nie wybrano jeszcze żadnego programu>"
@@ -17376,13 +17317,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ "Unikalny (128 bitowy) ID składający się z liczb wygenerowanych losowo,\n"
 #~ "służący do zidentyfikowania segmentu wśród innych."
 
-#~ msgid ""
-#~ "A regular expression is used for matching the file name against a list of "
-#~ "recognized languages limited by characters such as '.' or '['…']'."
-#~ msgstr ""
-#~ "Wyrażenie regularne jest używane w celu dopasowania nazwy pliku przeciwko "
-#~ "liście uznawanych języków, ograniczonych poprzez znaki takie jak \".\" "
-#~ "lub \"['...']\"."
+#~ msgid "A regular expression is used for matching the file name against a list of recognized languages limited by characters such as '.' or '['…']'."
+#~ msgstr "Wyrażenie regularne jest używane w celu dopasowania nazwy pliku przeciwko liście uznawanych języków, ograniczonych poprzez znaki takie jak \".\" lub \"['...']\"."
 
 #~ msgid "A track"
 #~ msgstr "Ścieżka"
@@ -17413,18 +17349,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "A/52 (aka AC-3)"
 #~ msgstr "A/52 (AC-3)"
 
-#~ msgid ""
-#~ "AAC files may contain HE-AAC / AAC+ / SBR AAC audio. This can NOT be "
-#~ "detected automatically. Therefore you have to specifiy '--aac-is-sbr 0' "
-#~ "manually for this input file if the file actually contains SBR AAC. The "
-#~ "file will be muxed in the WRONG way otherwise. Also read mkvmerge's "
-#~ "documentation.\n"
-#~ msgstr ""
-#~ "Pliki AAC mogą być kodowane z profilem HE-AAC / AAC+ / SBR AAC. To NIE "
-#~ "jest wykrywane automatycznie. Musisz samodzielnie dodać  \"--aac-is-sbr "
-#~ "0\" do linii komend, jeśli plik wejściowy ma faktycznie profil SBR AAC. "
-#~ "Inaczej plik wyjściowy będzie BŁĘDNIE zmuksowany. Dodatkowo zaleca się "
-#~ "przeczytanie dokumentacji mkvmerge.\n"
+#~ msgid "AAC files may contain HE-AAC / AAC+ / SBR AAC audio. This can NOT be detected automatically. Therefore you have to specifiy '--aac-is-sbr 0' manually for this input file if the file actually contains SBR AAC. The file will be muxed in the WRONG way otherwise. Also read mkvmerge's documentation.\n"
+#~ msgstr "Pliki AAC mogą być kodowane z profilem HE-AAC / AAC+ / SBR AAC. To NIE jest wykrywane automatycznie. Musisz samodzielnie dodać  \"--aac-is-sbr 0\" do linii komend, jeśli plik wejściowy ma faktycznie profil SBR AAC. Inaczej plik wyjściowy będzie BŁĘDNIE zmuksowany. Dodatkowo zaleca się przeczytanie dokumentacji mkvmerge.\n"
 
 #~ msgid "About mkvinfo"
 #~ msgstr "O mkvinfo"
@@ -17488,12 +17414,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ "Nazwa pliku odnosząca się do poprzedniego segmentu,\n"
 #~ "zawarta w znakach modyfikacji."
 
-#~ msgid ""
-#~ "Another default track for {0} tracks has already been set. The \"default "
-#~ "track\" flag for track {1} of '{2}' will not be set.\n"
-#~ msgstr ""
-#~ "Inna domyśla ścieżka dla {0} ścieżek już została ustawiona. Flaga "
-#~ "\"domyślna\" dla ścieżki {1} z \"{2}\" nie zostanie ustawiona.\n"
+#~ msgid "Another default track for {0} tracks has already been set. The \"default track\" flag for track {1} of '{2}' will not be set.\n"
+#~ msgstr "Inna domyśla ścieżka dla {0} ścieżek już została ustawiona. Flaga \"domyślna\" dla ścieżki {1} z \"{2}\" nie zostanie ustawiona.\n"
 
 #~ msgid "Ask the user"
 #~ msgstr "Pytaj użytkownika"
@@ -17507,12 +17429,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "Audio tracks:"
 #~ msgstr "Ścieżki &audio:"
 
-#~ msgid ""
-#~ "By default the GUI will start up with a dark color scheme if the color "
-#~ "scheme in Windows is set to dark mode."
-#~ msgstr ""
-#~ "Domyślnie GUI uruchomi się z ciemnym schematem kolorów, jeśli schemat "
-#~ "kolorów w systemie Windows jest ustawiony na tryb ciemny."
+#~ msgid "By default the GUI will start up with a dark color scheme if the color scheme in Windows is set to dark mode."
+#~ msgstr "Domyślnie GUI uruchomi się z ciemnym schematem kolorów, jeśli schemat kolorów w systemie Windows jest ustawiony na tryb ciemny."
 
 #~ msgid "C&ountry:"
 #~ msgstr "Państw&o:"
@@ -17520,12 +17438,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "Category is not NUL terminated"
 #~ msgstr "Kategoria nie jest zakończona znakiem NUL"
 
-#~ msgid ""
-#~ "Chapters are not allowed in WebM compliant files. No chapters will be "
-#~ "written to the destination file.\n"
-#~ msgstr ""
-#~ "W plikach formatu WebM rozdziały nie są dozwolone. Żaden rozdział nie "
-#~ "zostanie zapisany do pliku docelowego.\n"
+#~ msgid "Chapters are not allowed in WebM compliant files. No chapters will be written to the destination file.\n"
+#~ msgstr "W plikach formatu WebM rozdziały nie są dozwolone. Żaden rozdział nie zostanie zapisany do pliku docelowego.\n"
 
 #~ msgid "Check online for the latest release."
 #~ msgstr "Sprawdzaj, czy jest dostępna aktualizacja."
@@ -17600,8 +17514,7 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgstr "Problem z DTS_Header: nieprawidłowa rozdzielczość źródła PCM\n"
 
 #~ msgid "DTS_Header problem: not enough data to read header\n"
-#~ msgstr ""
-#~ "Problem z DTS_Header: brak wystarczających danych do odczytania nagłówka\n"
+#~ msgstr "Problem z DTS_Header: brak wystarczających danych do odczytania nagłówka\n"
 
 #~ msgid "Date (invalid, value: %1%)"
 #~ msgstr "Data (nieprawidłowa, wartość: %1%)"
@@ -17675,12 +17588,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "Enabled: %1%"
 #~ msgstr "Włączona: %1%"
 
-#~ msgid ""
-#~ "Enables AV1 video support even though the AV1 bitstream specification "
-#~ "hasn't been finalized yet."
-#~ msgstr ""
-#~ "Włącza obsługę wideo AV1, mimo że specyfikacja strumienia bitów AV1 nie "
-#~ "została jeszcze ukończona."
+#~ msgid "Enables AV1 video support even though the AV1 bitstream specification hasn't been finalized yet."
+#~ msgstr "Włącza obsługę wideo AV1, mimo że specyfikacja strumienia bitów AV1 nie została jeszcze ukończona."
 
 #~ msgid "Error creating a temporary file (reason: %1)."
 #~ msgstr "Błąd podczas tworzenia pliku tymczasowego (powód: %1)."
@@ -17706,16 +17615,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "Field order: %1% (%2%)"
 #~ msgstr "Kolejność pól: %1% (%2%)"
 
-#~ msgid ""
-#~ "File %1% has unknown type. Please have a look at the supported file types "
-#~ "('mkvmerge --list-types') and contact the author Moritz Bunkus "
-#~ "<moritz@bunkus.org> if your file type is supported but not recognized "
-#~ "properly.\n"
-#~ msgstr ""
-#~ "Plik %1% jest nieznanego typu. Proszę sprawdzić obsługiwane typy plików "
-#~ "(\"mkvmerge --list-types\") i skontaktować się z autorem: Moritz Bunkus "
-#~ "<moritz@bunkus.org>, jeśli Twój plik powinien być obsługiwany, a nie jest "
-#~ "poprawnie rozpoznawany.\n"
+#~ msgid "File %1% has unknown type. Please have a look at the supported file types ('mkvmerge --list-types') and contact the author Moritz Bunkus <moritz@bunkus.org> if your file type is supported but not recognized properly.\n"
+#~ msgstr "Plik %1% jest nieznanego typu. Proszę sprawdzić obsługiwane typy plików (\"mkvmerge --list-types\") i skontaktować się z autorem: Moritz Bunkus <moritz@bunkus.org>, jeśli Twój plik powinien być obsługiwany, a nie jest poprawnie rozpoznawany.\n"
 
 #~ msgid "File data, size: %1%"
 #~ msgstr "Dane pliku, rozmiar: %1%"
@@ -17726,8 +17627,7 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "File name: %1%"
 #~ msgstr "Nazwa pliku: %1%"
 
-#~ msgid ""
-#~ "For such files you can use this parameter and decrease the size to 2."
+#~ msgid "For such files you can use this parameter and decrease the size to 2."
 #~ msgstr "Dla takich plików możesz użyć tej opcji i zmniejszyć rozmiar do 2."
 
 #~ msgid "Force 2 bytes"
@@ -17751,32 +17651,17 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "IVF with VP8 video files"
 #~ msgstr "IVF ze ścieżką wideo VP8"
 
-#~ msgid ""
-#~ "If checked, several short animations used throughout the program as "
-#~ "visual clues for the user will be disabled."
-#~ msgstr ""
-#~ "Po zaznaczeniu tej opcji zostaną wyłączone krótkie animacje używane jako "
-#~ "wskazówki dla użytkownika."
+#~ msgid "If checked, several short animations used throughout the program as visual clues for the user will be disabled."
+#~ msgstr "Po zaznaczeniu tej opcji zostaną wyłączone krótkie animacje używane jako wskazówki dla użytkownika."
 
 #~ msgid "If nothing is entered the default 'Chapter <NUM:2>' will be used."
-#~ msgstr ""
-#~ "Jeśli nic nie podano, wtedy zostanie użyty domyślny \"Rozdział <NUM:2>\"."
+#~ msgstr "Jeśli nic nie podano, wtedy zostanie użyty domyślny \"Rozdział <NUM:2>\"."
 
-#~ msgid ""
-#~ "If set to 'determine automatically' then mkvmerge will choose one track "
-#~ "of each type to have this flag set based on the information in the source "
-#~ "files and the order of the tracks."
-#~ msgstr ""
-#~ "Jeśli ustawione na \"ustal automatycznie\", wtedy mkvmerge wybierze jedną "
-#~ "ścieżkę z każdego rodzaju, dla której ustawi tę flagę, bazując na "
-#~ "informacjach z pliku źródłowego i kolejności ścieżek."
+#~ msgid "If set to 'determine automatically' then mkvmerge will choose one track of each type to have this flag set based on the information in the source files and the order of the tracks."
+#~ msgstr "Jeśli ustawione na \"ustal automatycznie\", wtedy mkvmerge wybierze jedną ścieżkę z każdego rodzaju, dla której ustawi tę flagę, bazując na informacjach z pliku źródłowego i kolejności ścieżek."
 
-#~ msgid ""
-#~ "If this option is enabled, the GUI will not use its dark mode and fall "
-#~ "back to the default color scheme."
-#~ msgstr ""
-#~ "Jeśli ta opcja jest włączona, GUI nie będzie używać swojego trybu "
-#~ "ciemnego i powróci do domyślnego schematu kolorów."
+#~ msgid "If this option is enabled, the GUI will not use its dark mode and fall back to the default color scheme."
+#~ msgstr "Jeśli ta opcja jest włączona, GUI nie będzie używać swojego trybu ciemnego i powróci do domyślnego schematu kolorów."
 
 #~ msgid "Info"
 #~ msgstr "mkvInfo"
@@ -17785,35 +17670,22 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgstr "Ustawienia zadania informacyjnego"
 
 #~ msgid "Invalid boolean option specified in '--default-track-flag {0}'.\n"
-#~ msgstr ""
-#~ "Podano nieprawidłową wartość logiczną w \"--default-track-flag {0}\".\n"
+#~ msgstr "Podano nieprawidłową wartość logiczną w \"--default-track-flag {0}\".\n"
 
-#~ msgid ""
-#~ "Invalid boolean option specified in '--fix-bitstream-timing-information "
-#~ "{0}'.\n"
-#~ msgstr ""
-#~ "Podano nieprawidłową wartość logiczną w \"--fix-bitstream-timing-"
-#~ "information {0}\".\n"
+#~ msgid "Invalid boolean option specified in '--fix-bitstream-timing-information {0}'.\n"
+#~ msgstr "Podano nieprawidłową wartość logiczną w \"--fix-bitstream-timing-information {0}\".\n"
 
 #~ msgid "Invalid boolean option specified in '--forced-display-flag {0}'.\n"
-#~ msgstr ""
-#~ "Podano nieprawidłową wartość logiczną w \"--forced-display-flag {0}\".\n"
+#~ msgstr "Podano nieprawidłową wartość logiczną w \"--forced-display-flag {0}\".\n"
 
-#~ msgid ""
-#~ "Invalid format for a SSA line ('%1%') at timestamp %2%: Too many fields "
-#~ "found (%3% instead of 9). This entry will be skipped.\n"
-#~ msgstr ""
-#~ "Został użyty nieprawidłowy format dla SSA w linii (\"%1%\") o czasie %2%: "
-#~ "Znaleziono za dużo pól (%3% zamiast 9). Ta linia zostanie pominięta.\n"
+#~ msgid "Invalid format for a SSA line ('%1%') at timestamp %2%: Too many fields found (%3% instead of 9). This entry will be skipped.\n"
+#~ msgstr "Został użyty nieprawidłowy format dla SSA w linii (\"%1%\") o czasie %2%: Znaleziono za dużo pól (%3% zamiast 9). Ta linia zostanie pominięta.\n"
 
 #~ msgid "Invalid track ID specified in '--default-track-flag {0}'.\n"
 #~ msgstr "Podano nieprawidłowe ID ścieżki w \"--default-track-flag {0}\"\n"
 
-#~ msgid ""
-#~ "Invalid track ID specified in '--fix-bitstream-timing-information {0}'.\n"
-#~ msgstr ""
-#~ "Podano nieprawidłowe ID ścieżki w \"--fix-bitstream-timing-information "
-#~ "{0}\"\n"
+#~ msgid "Invalid track ID specified in '--fix-bitstream-timing-information {0}'.\n"
+#~ msgstr "Podano nieprawidłowe ID ścieżki w \"--fix-bitstream-timing-information {0}\"\n"
 
 #~ msgid "Invalid track ID specified in '--forced-display-flag {0}'.\n"
 #~ msgstr "Podano nieprawidłowe ID ścieżki w \"-forced-track {0}\"\n"
@@ -17824,12 +17696,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "Invalid {0} specified in '--{1} {2}'.\n"
 #~ msgstr "Nieprawidłowy {0} podany w \"--{1} {2}\".\n"
 
-#~ msgid ""
-#~ "It defaults to 4 bytes, but there are files which do not contain a frame "
-#~ "or slice that is bigger than 65535 bytes."
-#~ msgstr ""
-#~ "Domyślna wartość to 4, ale są i pliki nie zawierające klatek lub slice "
-#~ "większych niż 65535 bajtów."
+#~ msgid "It defaults to 4 bytes, but there are files which do not contain a frame or slice that is bigger than 65535 bytes."
+#~ msgstr "Domyślna wartość to 4, ale są i pliki nie zawierające klatek lub slice większych niż 65535 bajtów."
 
 #~ msgid "It was written by Moritz Bunkus <moritz@bunkus.org>."
 #~ msgstr "Program został napisany przez Moritza Bunkusa <moritz@bunkus.org>."
@@ -17858,10 +17726,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "MPEG audio files"
 #~ msgstr "MPEG - pliki audio"
 
-#~ msgid ""
-#~ "Make this track the default track for its type (audio, video, subtitles)."
-#~ msgstr ""
-#~ "Ustawia ścieżkę jako domyślną dla swojego typu (audio, wideo, napisy)."
+#~ msgid "Make this track the default track for its type (audio, video, subtitles)."
+#~ msgstr "Ustawia ścieżkę jako domyślną dla swojego typu (audio, wideo, napisy)."
 
 #~ msgid "Malformed line? (%1%)\n"
 #~ msgstr "Zniekształcona linia? (%1%)\n"
@@ -17902,14 +17768,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "MinCache: %1%"
 #~ msgstr "MinBufor: %1%"
 
-#~ msgid ""
-#~ "Missing header/comment packets for stream. This file is broken but should "
-#~ "be muxed correctly. If not please contact the author Moritz Bunkus "
-#~ "<moritz@bunkus.org>.\n"
-#~ msgstr ""
-#~ "Brakuje pakietów nagłówka/komentarzy dla tej ścieżki. Ten plik jest "
-#~ "wadliwy, ale powinien być prawidłowo zmuksowany. W innym przypadku "
-#~ "skontaktuj się z autorem: Moritz Bunkus <moritz@bunkus.org>.\n"
+#~ msgid "Missing header/comment packets for stream. This file is broken but should be muxed correctly. If not please contact the author Moritz Bunkus <moritz@bunkus.org>.\n"
+#~ msgstr "Brakuje pakietów nagłówka/komentarzy dla tej ścieżki. Ten plik jest wadliwy, ale powinien być prawidłowo zmuksowany. W innym przypadku skontaktuj się z autorem: Moritz Bunkus <moritz@bunkus.org>.\n"
 
 #~ msgid "Mu&x this track:"
 #~ msgstr "Muk&suj tę ścieżkę:"
@@ -17945,9 +17805,7 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgstr "Żaden plik nie został jeszcze otwarty."
 
 #~ msgid "No chapters in source files or chapter files found to split by.\n"
-#~ msgstr ""
-#~ "Brak rozdziałów w pliku źródłowym lub nie odnaleziono rozdziałów, według "
-#~ "których można podzielić plik.\n"
+#~ msgstr "Brak rozdziałów w pliku źródłowym lub nie odnaleziono rozdziałów, według których można podzielić plik.\n"
 
 #~ msgid "No error was found."
 #~ msgstr "Nie znaleziono indeksu cue.\n"
@@ -18009,18 +17867,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "Ready"
 #~ msgstr "Gotowe"
 
-#~ msgid ""
-#~ "RealMedia files may contain HE-AAC / AAC+ / SBR AAC audio. In some cases "
-#~ "this can NOT be detected automatically. Therefore you have to specifiy '--"
-#~ "aac-is-sbr %1%' manually for this input file if the file actually "
-#~ "contains SBR AAC. The file will be muxed in the WRONG way otherwise. Also "
-#~ "read mkvmerge's documentation.\n"
-#~ msgstr ""
-#~ "Pliki RealMedia mogą zawierać dźwięk o profilu HE-AAC / AAC+ / SBR AAC. W "
-#~ "pewnych przypadkach NIE jest to wykrywane automatycznie. W związku z tym "
-#~ "musisz ręcznie ustawić \"--aac-is-sbr %1%\" dla tego pliku wejściowego, "
-#~ "jeśli faktycznie zawiera dane SBR. Jeśli tego nie zrobisz, plik zostanie "
-#~ "NIEPOPRAWNIE zmuksowany. Dodatkowo przeczytaj dokumentację mkvmerge.\n"
+#~ msgid "RealMedia files may contain HE-AAC / AAC+ / SBR AAC audio. In some cases this can NOT be detected automatically. Therefore you have to specifiy '--aac-is-sbr %1%' manually for this input file if the file actually contains SBR AAC. The file will be muxed in the WRONG way otherwise. Also read mkvmerge's documentation.\n"
+#~ msgstr "Pliki RealMedia mogą zawierać dźwięk o profilu HE-AAC / AAC+ / SBR AAC. W pewnych przypadkach NIE jest to wykrywane automatycznie. W związku z tym musisz ręcznie ustawić \"--aac-is-sbr %1%\" dla tego pliku wejściowego, jeśli faktycznie zawiera dane SBR. Jeśli tego nie zrobisz, plik zostanie NIEPOPRAWNIE zmuksowany. Dodatkowo przeczytaj dokumentację mkvmerge.\n"
 
 #~ msgid "Remove a&ll"
 #~ msgstr "&Usuń wszystko"
@@ -18068,15 +17916,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ "ścieżki, której język odpowiada ustawieniom odtwarzania,\n"
 #~ "lub wybrać ścieżki domyślną + wymuszoną."
 
-#~ msgid ""
-#~ "Set if that track MUST be used during playback. There can be many forced "
-#~ "track for a kind (audio, video or subs). The player should select the one "
-#~ "whose language matches the user preference or the default + forced track."
-#~ msgstr ""
-#~ "Ustaw parametr, jeśli ścieżka MUSI być użyta podczas odtwarzania. Może "
-#~ "być wiele wymuszonych ścieżek danego rodzaju (audio, wideo i napisy). "
-#~ "Odtwarzacz powninien wybrać taką ścieżkę, której język odpowiada "
-#~ "preferencjom użytkownika, lub wybrać ścieżkę domyślną + wymuszoną."
+#~ msgid "Set if that track MUST be used during playback. There can be many forced track for a kind (audio, video or subs). The player should select the one whose language matches the user preference or the default + forced track."
+#~ msgstr "Ustaw parametr, jeśli ścieżka MUSI być użyta podczas odtwarzania. Może być wiele wymuszonych ścieżek danego rodzaju (audio, wideo i napisy). Odtwarzacz powninien wybrać taką ścieżkę, której język odpowiada preferencjom użytkownika, lub wybrać ścieżkę domyślną + wymuszoną."
 
 #~ msgid "Set the chapter names' co&untries:"
 #~ msgstr "Usta&w państwo nazw rozdziałów:"
@@ -18112,8 +17953,7 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ "(0: dowolna zmiana, 1: utrzymanie proporcji, 2: ustalone proporcje)."
 
 #~ msgid "Start the GUI (and open inname if it was given)."
-#~ msgstr ""
-#~ "Uruchom interfejs graficzny (i otwórz plik, jeśli podano jego nazwę)."
+#~ msgstr "Uruchom interfejs graficzny (i otwórz plik, jeśli podano jego nazwę)."
 
 #~ msgid "Stereo mode"
 #~ msgstr "Tryb stereo"
@@ -18124,101 +17964,38 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "Subtitle tracks:"
 #~ msgstr "Ścieżki napi&sów:"
 
-#~ msgid ""
-#~ "Support for AV1 is currently experimental and must be enabled with '--"
-#~ "engage enable_av1' as the AV1 bitstream specification hasn't been "
-#~ "finalized yet.\n"
-#~ msgstr ""
-#~ "Wsparcie dla AV1 jest obecnie w fazie eksperymentalnej i musi być "
-#~ "włączone za pomocą opcji \"--engage enable_av1\", jako że specyfikacja "
-#~ "strumienia bitów AV1 nie została jeszcze ukończona.\n"
+#~ msgid "Support for AV1 is currently experimental and must be enabled with '--engage enable_av1' as the AV1 bitstream specification hasn't been finalized yet.\n"
+#~ msgstr "Wsparcie dla AV1 jest obecnie w fazie eksperymentalnej i musi być włączone za pomocą opcji \"--engage enable_av1\", jako że specyfikacja strumienia bitów AV1 nie została jeszcze ukończona.\n"
 
-#~ msgid ""
-#~ "The AVC video track is missing the 'CTTS' atom for frame timestamp "
-#~ "offsets. However, AVC/H.264 allows frames to have more than the "
-#~ "traditional one (for P frames) or two (for B frames) references to other "
-#~ "frames. The timestamps for such frames will be out-of-order, and the "
-#~ "'CTTS' atom is needed for getting the timestamps right. As it is missing "
-#~ "the timestamps for this track might be wrong. You should watch the "
-#~ "resulting file and make sure that it looks like you expected it to.\n"
-#~ msgstr ""
-#~ "Ścieżka obrazu AVC nie posiada elementu \"CTTS\" dla odchyleń kodów "
-#~ "czasowych klatek. Jednakże, format AVC/H.264 pozwala, aby klatki mogły "
-#~ "odnosić się do więcej niż tradycyjnie jednej (dla klatek typu P) lub "
-#~ "dwóch (dla klatek typu B) innych klatek. Kody czasowe dla tychże klatek "
-#~ "będą poza porządkiem i element \"CTTS\" jest potrzebny, aby kody czasowe "
-#~ "były poprawne. W przypadku braku elementu kody czasowe mogą być błędne. "
-#~ "Powinienieś odtworzyć plik wynikowy, aby upewnić się, że plik wygląda "
-#~ "tak, jak powinien.\n"
+#~ msgid "The AVC video track is missing the 'CTTS' atom for frame timestamp offsets. However, AVC/H.264 allows frames to have more than the traditional one (for P frames) or two (for B frames) references to other frames. The timestamps for such frames will be out-of-order, and the 'CTTS' atom is needed for getting the timestamps right. As it is missing the timestamps for this track might be wrong. You should watch the resulting file and make sure that it looks like you expected it to.\n"
+#~ msgstr "Ścieżka obrazu AVC nie posiada elementu \"CTTS\" dla odchyleń kodów czasowych klatek. Jednakże, format AVC/H.264 pozwala, aby klatki mogły odnosić się do więcej niż tradycyjnie jednej (dla klatek typu P) lub dwóch (dla klatek typu B) innych klatek. Kody czasowe dla tychże klatek będą poza porządkiem i element \"CTTS\" jest potrzebny, aby kody czasowe były poprawne. W przypadku braku elementu kody czasowe mogą być błędne. Powinienieś odtworzyć plik wynikowy, aby upewnić się, że plik wygląda tak, jak powinien.\n"
 
-#~ msgid ""
-#~ "The Matroska file was modified, but the meta seek entry could not be "
-#~ "updated. This means that players might have a hard time finding this "
-#~ "element. Please use your favorite player to check this file."
-#~ msgstr ""
-#~ "Plik Matroska został zmodyfikowany, jednak element indeksu wyszukiwania "
-#~ "nie mógł zostać nadpisany. To oznacza, że odtwarzacze mogą mieć trudności "
-#~ "z odnalezieniem tego elementu. Proszę użyć ulubionego odtwarzacza, aby "
-#~ "sprawdzić, czy wyszukiwanie w pliku działa."
+#~ msgid "The Matroska file was modified, but the meta seek entry could not be updated. This means that players might have a hard time finding this element. Please use your favorite player to check this file."
+#~ msgstr "Plik Matroska został zmodyfikowany, jednak element indeksu wyszukiwania nie mógł zostać nadpisany. To oznacza, że odtwarzacze mogą mieć trudności z odnalezieniem tego elementu. Proszę użyć ulubionego odtwarzacza, aby sprawdzić, czy wyszukiwanie w pliku działa."
 
-#~ msgid ""
-#~ "The NALU size length must be a number between 2 and 4 inclusively in '--"
-#~ "nalu-size-length {0}'.\n"
-#~ msgstr ""
-#~ "Rozmiar długości NALU musi być cyfrą pomiędzy 2 a 4 w \"--nalu-size-"
-#~ "length {0}\".\n"
+#~ msgid "The NALU size length must be a number between 2 and 4 inclusively in '--nalu-size-length {0}'.\n"
+#~ msgstr "Rozmiar długości NALU musi być cyfrą pomiędzy 2 a 4 w \"--nalu-size-length {0}\".\n"
 
 #~ msgid "The chosen NALU size length of {0} is too small. Try using '4'.\n"
-#~ msgstr ""
-#~ "Wybrany rozmiar NALU o długości {0} jest za mały. Spróbuj użyć \"4\".\n"
+#~ msgstr "Wybrany rozmiar NALU o długości {0} jest za mały. Spróbuj użyć \"4\".\n"
 
-#~ msgid ""
-#~ "The expression must contain at least one pair of capturing parenthesis."
-#~ msgstr ""
-#~ "Wyrażenie musi zawierać co najmniej jedną parę nawiasów przechwytujących."
+#~ msgid "The expression must contain at least one pair of capturing parenthesis."
+#~ msgstr "Wyrażenie musi zawierać co najmniej jedną parę nawiasów przechwytujących."
 
-#~ msgid ""
-#~ "The file '%1%' has unknown type. Please have a look at the supported file "
-#~ "types ('mkvmerge --list-types') and contact the author Moritz Bunkus "
-#~ "<moritz@bunkus.org> if your file type is supported but not recognized "
-#~ "properly.\n"
-#~ msgstr ""
-#~ "Plik \"%1%\" jest nieznanego typu. Proszę spojrzeć na listę obsługiwanych "
-#~ "typów plików (\"mkvmerge --list-types\") i skontaktować się z autorem "
-#~ "programu: Moritz Bunkus <moritz@bunkus.org>, jeśli typ Twojego pliku jest "
-#~ "obsługiwany, ale nie jest rozpoznawany poprawnie. \n"
+#~ msgid "The file '%1%' has unknown type. Please have a look at the supported file types ('mkvmerge --list-types') and contact the author Moritz Bunkus <moritz@bunkus.org> if your file type is supported but not recognized properly.\n"
+#~ msgstr "Plik \"%1%\" jest nieznanego typu. Proszę spojrzeć na listę obsługiwanych typów plików (\"mkvmerge --list-types\") i skontaktować się z autorem programu: Moritz Bunkus <moritz@bunkus.org>, jeśli typ Twojego pliku jest obsługiwany, ale nie jest rozpoznawany poprawnie. \n"
 
-#~ msgid ""
-#~ "The file has been changed by another program since it was read by the "
-#~ "header editor. Therefore you have to re-load it. Unfortunately this means "
-#~ "that all of your changes will be lost."
-#~ msgstr ""
-#~ "Plik po wczytaniu do edytora nagłówków został zmodyfikowany przez inny "
-#~ "program. Jest wymagane wczytanie pliku ponownie. Niestety oznacza to, że "
-#~ "wszystkie wprowadzone zmiany zostaną utracone."
+#~ msgid "The file has been changed by another program since it was read by the header editor. Therefore you have to re-load it. Unfortunately this means that all of your changes will be lost."
+#~ msgstr "Plik po wczytaniu do edytora nagłówków został zmodyfikowany przez inny program. Jest wymagane wczytanie pliku ponownie. Niestety oznacza to, że wszystkie wprowadzone zmiany zostaną utracone."
 
-#~ msgid ""
-#~ "The first non-empty capturing parenthesis will be used as the language."
-#~ msgstr ""
-#~ "Pierwszy niewypełniony nawias przechwytujący zostanie użyty jako język."
+#~ msgid "The first non-empty capturing parenthesis will be used as the language."
+#~ msgstr "Pierwszy niewypełniony nawias przechwytujący zostanie użyty jako język."
 
-#~ msgid ""
-#~ "The first word tells mkvextract what to extract. The second must be the "
-#~ "source file. There are few global options that can be used with all "
-#~ "modes. All other options depend on the mode."
-#~ msgstr ""
-#~ "Pierwsza wartość opcji mówi mkvextract, co ma wyodrębnić. Druga wartość "
-#~ "musi oznaczać plik źródłowy. Jest kilka globalnych opcji, które mogą być "
-#~ "użyte z wszystkimi trybami. Wszystkie pozostałe opcje zależą od trybu."
+#~ msgid "The first word tells mkvextract what to extract. The second must be the source file. There are few global options that can be used with all modes. All other options depend on the mode."
+#~ msgstr "Pierwsza wartość opcji mówi mkvextract, co ma wyodrębnić. Druga wartość musi oznaczać plik źródłowy. Jest kilka globalnych opcji, które mogą być użyte z wszystkimi trybami. Wszystkie pozostałe opcje zależą od trybu."
 
-#~ msgid ""
-#~ "The following placeholders can be used to match the list of recognized "
-#~ "languages: '<ISO_639_1_CODES>', '<ISO_639_2_CODES>' and "
-#~ "'<LANGUAGE_NAMES>'."
-#~ msgstr ""
-#~ "Aby dopasować listę uznawanych języków, można użyć następujących symboli "
-#~ "zastępczych: \"<ISO_639_1_CODES>\", \"<ISO_639_2_CODES>\" i "
-#~ "\"<LANGUAGE_NAMES>\"."
+#~ msgid "The following placeholders can be used to match the list of recognized languages: '<ISO_639_1_CODES>', '<ISO_639_2_CODES>' and '<LANGUAGE_NAMES>'."
+#~ msgstr "Aby dopasować listę uznawanych języków, można użyć następujących symboli zastępczych: \"<ISO_639_1_CODES>\", \"<ISO_639_2_CODES>\" i \"<LANGUAGE_NAMES>\"."
 
 #~ msgid ""
 #~ "The maximum number of frames a player\n"
@@ -18231,13 +18008,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ "Jeśli parametr ustawimy na 0, wtedy pseudo\n"
 #~ "bufor nie zostanie użyty."
 
-#~ msgid ""
-#~ "The maximum number of frames a player should be able to cache during "
-#~ "playback. If set to 0, the reference pseudo-cache system is not used."
-#~ msgstr ""
-#~ "Maksymala liczba klatek, które odtwarzacz powinien buforować podczas "
-#~ "odtwarzania. Jeśli parametr ustawimy na 0, wtedy pseudo bufor nie będzie "
-#~ "w użyciu."
+#~ msgid "The maximum number of frames a player should be able to cache during playback. If set to 0, the reference pseudo-cache system is not used."
+#~ msgstr "Maksymala liczba klatek, które odtwarzacz powinien buforować podczas odtwarzania. Jeśli parametr ustawimy na 0, wtedy pseudo bufor nie będzie w użyciu."
 
 #~ msgid ""
 #~ "The minimum number of frames a player\n"
@@ -18250,13 +18022,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ "Jeśli parametr ustawimy na 0, wtedy pseudo\n"
 #~ "bufor nie zostanie użyty."
 
-#~ msgid ""
-#~ "The minimum number of frames a player should be able to cache during "
-#~ "playback. If set to 0, the reference pseudo-cache system is not used."
-#~ msgstr ""
-#~ "Minimalna liczba klatek, które odtwarzacz powinien buforować podczas "
-#~ "odtwarzania. Jeśli parametr ustawimy na 0, wtedy pseudo bufor nie będzie "
-#~ "w użyciu."
+#~ msgid "The minimum number of frames a player should be able to cache during playback. If set to 0, the reference pseudo-cache system is not used."
+#~ msgstr "Minimalna liczba klatek, które odtwarzacz powinien buforować podczas odtwarzania. Jeśli parametr ustawimy na 0, wtedy pseudo bufor nie będzie w użyciu."
 
 #~ msgid "The name of the application or library used for merging the file."
 #~ msgstr "Nazwa aplikacji lub biblioteki użytej do muksowania pliku."
@@ -18264,14 +18031,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "The name of the application or library used for muxing the file."
 #~ msgstr "Nazwa aplikacji lub biblioteki użytej do muksowania pliku."
 
-#~ msgid ""
-#~ "The name of the output file '%1%' and of one of the input files is the "
-#~ "same. This would cause mkvmerge to overwrite one of your input files. "
-#~ "This is most likely not what you want.\n"
-#~ msgstr ""
-#~ "Nazwa pliku wyjściowego \"%1%\" i jednego z plików wejściowych są takie "
-#~ "same. Może to spowodać nadpisanie jednego z plików wejściowych. Nie jest "
-#~ "to coś, czego byś chciał(a).\n"
+#~ msgid "The name of the output file '%1%' and of one of the input files is the same. This would cause mkvmerge to overwrite one of your input files. This is most likely not what you want.\n"
+#~ msgstr "Nazwa pliku wyjściowego \"%1%\" i jednego z plików wejściowych są takie same. Może to spowodać nadpisanie jednego z plików wejściowych. Nie jest to coś, czego byś chciał(a).\n"
 
 #~ msgid ""
 #~ "The number of video pixels to remove\n"
@@ -18288,62 +18049,29 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ "on the top of the image."
 #~ msgstr "Liczba pikseli, które zostaną ucięte od góry."
 
-#~ msgid ""
-#~ "The regular expression for deriving the track language from file names is "
-#~ "invalid: %1"
-#~ msgstr ""
-#~ "Wyrażenie regularne dla pobierania języka ścieżki z nazw plików jest "
-#~ "nieprawidłowe: %1"
+#~ msgid "The regular expression for deriving the track language from file names is invalid: %1"
+#~ msgstr "Wyrażenie regularne dla pobierania języka ścieżki z nazw plików jest nieprawidłowe: %1"
 
 #~ msgid "The update information could not be retrieved from %1%.\n"
 #~ msgstr "Informacja o aktualizacji nie mogła zostać pobrana z %1%.\n"
 
-#~ msgid ""
-#~ "This AVC/H.264 contains frames that are too big for the current maximum "
-#~ "NALU size. You have to re-run mkvmerge and set the maximum NALU size to "
-#~ "{0} for this track (command line parameter '--nalu-size-length {1}:"
-#~ "{0}').\n"
-#~ msgstr ""
-#~ "Ta ścieżka AVC/H.264 zawiera klatki, które posiadają zbyt duży maksymalny "
-#~ "rozmiar NALU. Pownieneś jeszcze raz uruchomić mkvmerge i ustawić "
-#~ "maksymalny rozmiar NALU na {0} dla tej ścieżki (opcja linii komend to \"--"
-#~ "nalu-size-length {1}:{0}\").\n"
+#~ msgid "This AVC/H.264 contains frames that are too big for the current maximum NALU size. You have to re-run mkvmerge and set the maximum NALU size to {0} for this track (command line parameter '--nalu-size-length {1}:{0}').\n"
+#~ msgstr "Ta ścieżka AVC/H.264 zawiera klatki, które posiadają zbyt duży maksymalny rozmiar NALU. Pownieneś jeszcze raz uruchomić mkvmerge i ustawić maksymalny rozmiar NALU na {0} dla tej ścieżki (opcja linii komend to \"--nalu-size-length {1}:{0}\").\n"
 
-#~ msgid ""
-#~ "This HEVC contains frames that are too big for the current maximum NALU "
-#~ "size. You have to re-run mkvmerge and set the maximum NALU size to {0} "
-#~ "for this track (command line parameter '--nalu-size-length {1}:{0}').\n"
-#~ msgstr ""
-#~ "Ta ścieżka HEVC zawiera klatki, które posiadają zbyt duży maksymalny "
-#~ "rozmiar NALU. Powinieneś jeszcze raz uruchomić mkvmerge i ustawić "
-#~ "maksymalny rozmiar NALU na {0} dla tej ścieżki (opcja linii komend to \"--"
-#~ "nalu-size-length {1}:{0}\").\n"
+#~ msgid "This HEVC contains frames that are too big for the current maximum NALU size. You have to re-run mkvmerge and set the maximum NALU size to {0} for this track (command line parameter '--nalu-size-length {1}:{0}').\n"
+#~ msgstr "Ta ścieżka HEVC zawiera klatki, które posiadają zbyt duży maksymalny rozmiar NALU. Powinieneś jeszcze raz uruchomić mkvmerge i ustawić maksymalny rozmiar NALU na {0} dla tej ścieżki (opcja linii komend to \"--nalu-size-length {1}:{0}\").\n"
 
-#~ msgid ""
-#~ "This HEVC track does not start with a key frame. The first {0} frames "
-#~ "have been skipped.\n"
-#~ msgstr ""
-#~ "Ta ścieżka HEVC nie zaczyna się klatką kluczową. Pierwsze {0} klatki "
-#~ "zostaną pominięte.\n"
+#~ msgid "This HEVC track does not start with a key frame. The first {0} frames have been skipped.\n"
+#~ msgstr "Ta ścieżka HEVC nie zaczyna się klatką kluczową. Pierwsze {0} klatki zostaną pominięte.\n"
 
-#~ msgid ""
-#~ "This is the country that newly added chapter names get assigned "
-#~ "automatically."
-#~ msgstr ""
-#~ "Jest to państwo, jakie automatycznie przyporządkowuje się nowo dodanemu "
-#~ "rozdziałowi."
+#~ msgid "This is the country that newly added chapter names get assigned automatically."
+#~ msgstr "Jest to państwo, jakie automatycznie przyporządkowuje się nowo dodanemu rozdziałowi."
 
 #~ msgid "This only works with (E-)AC-3 audio tracks."
 #~ msgstr "Ta opcja działa wyłącznie ze ścieżkami DTS."
 
-#~ msgid ""
-#~ "This parameter is only effective for AVC/H.264 and HEVC/H.265 elementary "
-#~ "streams read from AVC/H.264 ES or HEVC/H.265 ES files, AVIs or Matroska "
-#~ "files created with '--engage allow_avc_in_vwf_mode'."
-#~ msgstr ""
-#~ "Ten parametr działa tylko dla strumieni podstawowych AVC/H.264 i HEVC/"
-#~ "H.265, wczytywanych z plików AVC/H.264 ES lub HEVC/H.265 ES, plików AVI "
-#~ "lub Matroska utworzonych z opcją \"--engage allow_avc_in_vwf_mode\"."
+#~ msgid "This parameter is only effective for AVC/H.264 and HEVC/H.265 elementary streams read from AVC/H.264 ES or HEVC/H.265 ES files, AVIs or Matroska files created with '--engage allow_avc_in_vwf_mode'."
+#~ msgstr "Ten parametr działa tylko dla strumieni podstawowych AVC/H.264 i HEVC/H.265, wczytywanych z plików AVC/H.264 ES lub HEVC/H.265 ES, plików AVI lub Matroska utworzonych z opcją \"--engage allow_avc_in_vwf_mode\"."
 
 #~ msgid "This program is licensed under the GPL v2 (see COPYING)."
 #~ msgstr "Ten program jest wydany na licencji GPL v2 (patrz plik COPYING)."
@@ -18351,24 +18079,14 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "Title: %1%"
 #~ msgstr "Tytuł: %1%"
 
-#~ msgid ""
-#~ "Track %1% was compressed with bzlib but mkvmerge has not been compiled "
-#~ "with support for bzlib compression.\n"
-#~ msgstr ""
-#~ "Ścieżka %1% została skompresowana przy pomocy bzlib jednakże mkvmerge nie "
-#~ "został skompilowany z obsługą kompresji bzlib.\n"
+#~ msgid "Track %1% was compressed with bzlib but mkvmerge has not been compiled with support for bzlib compression.\n"
+#~ msgstr "Ścieżka %1% została skompresowana przy pomocy bzlib jednakże mkvmerge nie został skompilowany z obsługą kompresji bzlib.\n"
 
-#~ msgid ""
-#~ "Track %1% was compressed with lzo1x but mkvmerge has not been compiled "
-#~ "with support for lzo1x compression.\n"
-#~ msgstr ""
-#~ "Ścieżka %1% została skompresowana przy pomocy lzo1x jednakże mkvmerge nie "
-#~ "został skompilowany z obsługą kompresji lzo1x.\n"
+#~ msgid "Track %1% was compressed with lzo1x but mkvmerge has not been compiled with support for lzo1x compression.\n"
+#~ msgstr "Ścieżka %1% została skompresowana przy pomocy lzo1x jednakże mkvmerge nie został skompilowany z obsługą kompresji lzo1x.\n"
 
 #~ msgid "Track %1%: AAC found, but decoder config data has length %2%.\n"
-#~ msgstr ""
-#~ "Ścieżka %1%: Znaleziono AAC, dane konfiguracyjne dekodera mają długość "
-#~ "%2%.\n"
+#~ msgstr "Ścieżka %1%: Znaleziono AAC, dane konfiguracyjne dekodera mają długość %2%.\n"
 
 #~ msgid "Track UID: %1%"
 #~ msgstr "UID ścieżki: %1%"
@@ -18383,12 +18101,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "Type: %1% (%2%)"
 #~ msgstr "Typ: %1% (%2%)"
 
-#~ msgid ""
-#~ "Unexpected picture frame after single field frame. Fix the MPEG2 video "
-#~ "stream before attempting to multiplex it.\n"
-#~ msgstr ""
-#~ "Nieoczekiwanie natrafiono na klatkę obrazu po wystąpieniu pojedynczego "
-#~ "pola. Napraw ścieżkę MPEG2, zanim będziesz próbować ją multipleksować.\n"
+#~ msgid "Unexpected picture frame after single field frame. Fix the MPEG2 video stream before attempting to multiplex it.\n"
+#~ msgstr "Nieoczekiwanie natrafiono na klatkę obrazu po wystąpieniu pojedynczego pola. Napraw ścieżkę MPEG2, zanim będziesz próbować ją multipleksować.\n"
 
 #~ msgid "Unknown element"
 #~ msgstr "Nieznany element"
@@ -18402,12 +18116,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "User forum/sub-&Reddit"
 #~ msgstr "Forum użytkowników/sub-&Reddit"
 
-#~ msgid ""
-#~ "Using a NALU size length of 3 bytes might result in tracks that won't be "
-#~ "decodable with certain AVC/H.264 codecs.\n"
-#~ msgstr ""
-#~ "Użycie NALU o rozmiarze 3 bajtów może spowodować niemożność zdekodowania "
-#~ "ścieżki przez pewne kodeki AVC/H.264.\n"
+#~ msgid "Using a NALU size length of 3 bytes might result in tracks that won't be decodable with certain AVC/H.264 codecs.\n"
+#~ msgstr "Użycie NALU o rozmiarze 3 bajtów może spowodować niemożność zdekodowania ścieżki przez pewne kodeki AVC/H.264.\n"
 
 #~ msgid "Video tracks:"
 #~ msgstr "Ścieżki &wideo:"
@@ -18424,12 +18134,8 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "Writing application: %1%"
 #~ msgstr "Program zapisujący: %1%"
 
-#~ msgid ""
-#~ "You have to add at least one source file before you can start merging or "
-#~ "add a job to the job queue."
-#~ msgstr ""
-#~ "Musisz dodać przynajmniej jeden plik źródłowy, zanim rozpoczniesz "
-#~ "muksowanie lub dodasz zadanie do kolejki."
+#~ msgid "You have to add at least one source file before you can start merging or add a job to the job queue."
+#~ msgstr "Musisz dodać przynajmniej jeden plik źródłowy, zanim rozpoczniesz muksowanie lub dodasz zadanie do kolejki."
 
 #~ msgid "[{0} frame for track {1}, timestamp {2}]"
 #~ msgstr "[{0} klatka ścieżki {1}, znacznik czasu {2}]"
@@ -18441,8 +18147,7 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgstr "Zawsze skanuj w poszukiwaniu innych list odtwarzania"
 
 #~ msgid "bottom field displayed first, top field stored first"
-#~ msgstr ""
-#~ "dolne pole wyświetlane najpierw, górne pole przechowywane jako pierwsze"
+#~ msgstr "dolne pole wyświetlane najpierw, górne pole przechowywane jako pierwsze"
 
 #~ msgid "chapters"
 #~ msgstr "rozdziały"
@@ -18514,26 +18219,17 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgstr "mkvextract tags <nazwa pliku> [opcje]"
 
 #~ msgid ""
-#~ "mkvmerge encountered broken or unparsable data in this AVC/H.264 video "
-#~ "track. Either your file is damaged (which mkvmerge cannot cope with yet) "
-#~ "or this is a bug in mkvmerge itself. The error message was:\n"
+#~ "mkvmerge encountered broken or unparsable data in this AVC/H.264 video track. Either your file is damaged (which mkvmerge cannot cope with yet) or this is a bug in mkvmerge itself. The error message was:\n"
 #~ "{0}\n"
 #~ msgstr ""
-#~ "mkvmerge napotkał uszkodzone lub niemożliwe do analizy dane w ścieżce "
-#~ "obrazu AVC/H.264. Albo posiadasz wadliwy plik (z czym mkvmerge jeszcze "
-#~ "sobie nie radzi), albo jest to błąd w programie. Błąd, który wystąpił, "
-#~ "to:\n"
+#~ "mkvmerge napotkał uszkodzone lub niemożliwe do analizy dane w ścieżce obrazu AVC/H.264. Albo posiadasz wadliwy plik (z czym mkvmerge jeszcze sobie nie radzi), albo jest to błąd w programie. Błąd, który wystąpił, to:\n"
 #~ "{0}\n"
 
 #~ msgid ""
-#~ "mkvmerge encountered broken or unparsable data in this HEVC video track. "
-#~ "Either your file is damaged (which mkvmerge cannot cope with yet) or this "
-#~ "is a bug in mkvmerge itself. The error message was:\n"
+#~ "mkvmerge encountered broken or unparsable data in this HEVC video track. Either your file is damaged (which mkvmerge cannot cope with yet) or this is a bug in mkvmerge itself. The error message was:\n"
 #~ "{0}\n"
 #~ msgstr ""
-#~ "mkvmerge napotkał uszkodzone lub niemożliwe do analizy dane w ścieżce "
-#~ "obrazu HEVC. Albo posiadasz wadliwy plik (z czym mkvmerge jeszcze sobie "
-#~ "nie radzi), albo jest to błąd w programie. Błąd, który wystąpił, to:\n"
+#~ "mkvmerge napotkał uszkodzone lub niemożliwe do analizy dane w ścieżce obrazu HEVC. Albo posiadasz wadliwy plik (z czym mkvmerge jeszcze sobie nie radzi), albo jest to błąd w programie. Błąd, który wystąpił, to:\n"
 #~ "{0}\n"
 
 #~ msgid "never scan for other playlists"
@@ -18551,21 +18247,14 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 #~ msgid "remove input files"
 #~ msgstr "Usuń pliki wejściowe"
 
-#~ msgid ""
-#~ "spu_extraction_duration: Encountered broken SPU packet (next_off < "
-#~ "start_off) at timestamp %1%. This packet might be displayed incorrectly "
-#~ "or not at all.\n"
-#~ msgstr ""
-#~ "spu_extraction_duration: Napotkano nieprawidłowy pakiet SPU (next_off < "
-#~ "start_off) przy %1%. Ten pakiet może być nieprawidłowo lub w ogóle nie "
-#~ "wyświetlany.\n"
+#~ msgid "spu_extraction_duration: Encountered broken SPU packet (next_off < start_off) at timestamp %1%. This packet might be displayed incorrectly or not at all.\n"
+#~ msgstr "spu_extraction_duration: Napotkano nieprawidłowy pakiet SPU (next_off < start_off) przy %1%. Ten pakiet może być nieprawidłowo lub w ogóle nie wyświetlany.\n"
 
 #~ msgid "tags"
 #~ msgstr "tagi"
 
 #~ msgid "top field displayed first, bottom field stored first"
-#~ msgstr ""
-#~ "górne pole wyświetlane najpierw, dolne pole przechowywane jako pierwsze"
+#~ msgstr "górne pole wyświetlane najpierw, dolne pole przechowywane jako pierwsze"
 
 #~ msgid "unspecified"
 #~ msgstr "nieokreślony"
@@ -18575,4 +18264,3 @@ msgstr "Nie znaleziono żadnej ścieżki odnoszącej się do specyfikacji edytow
 
 #~ msgid "{0}: Could not open the sub file"
 #~ msgstr "{0}: Nie można otworzyć pliku sub"
-
